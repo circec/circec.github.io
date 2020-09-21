@@ -1,0 +1,46 @@
+body{
+    font: size 10;
+    background-color: rgba(255, 117, 225, 0.425);
+}
+
+h1{
+align-items: center;
+color: whitesmoke;
+}
+
+.foto{
+width: 150px;
+float: right;
+margin right: 10px;
+border-radius: 8px;
+box-shadow: -5px -5px 5px lightblue, 2px 2px 5px lightgrey;
+
+}
+
+header{
+    background-color: rgba(51, 12, 88, 0.767);
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+ 
+}
+
+main hr{
+    background-color: rgb(51, 12, 53);
+    height: .5em;
+    border-radius: .5em;
+}
+
+footer{
+    background-color: rgba(51, 12, 88, 0.767);
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+.lastu{
+    color: whitesmoke;
+}
