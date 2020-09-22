@@ -6,6 +6,11 @@ body{
 h1{
 align-items: center;
 color: whitesmoke;
+font-family: 'Ranchers', cursive;
+}
+
+h2{
+font-family: 'Ranchers', cursive;
 }
 
 .foto{
@@ -14,7 +19,6 @@ float: right;
 margin right: 10px;
 border-radius: 8px;
 box-shadow: -5px -5px 5px lightblue, 2px 2px 5px lightgrey;
-
 }
 
 header{
