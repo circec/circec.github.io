@@ -21,6 +21,11 @@ border-radius: 8px;
 box-shadow: -5px -5px 5px lightblue, 2px 2px 5px lightgrey;
 }
 
+div.encabezado{
+    //lo tome de ejemplo//
+    width: 100%;
+  }
+
 header{
     background-color: rgba(51, 12, 88, 0.767);
     height: 150px;
@@ -28,8 +33,6 @@ header{
     text-align: center;
     padding: 10px;
     
-
- 
 }
 
 main hr{
