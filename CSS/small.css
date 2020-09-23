@@ -14,9 +14,8 @@ font-family: 'Ranchers', cursive;
 }
 
 .foto{
-width: 150px;
-float: right;
-margin right: 10px;
+width: 200px;
+height: auto;
 border-radius: 8px;
 box-shadow: -5px -5px 5px lightblue, 2px 2px 5px lightgrey;
 }

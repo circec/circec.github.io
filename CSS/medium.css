@@ -1,4 +1,4 @@
-@media only screen and (main-width: 32.5em){
+@media only screen and (min-width: 32.5em){
     h1{
         /*align-items: center;*/
         color: whitesmoke;
@@ -15,7 +15,6 @@
         .foto{
             width: 150px;
             float: right;
-            margin right: 10px;
             box-shadow: -5px -5px 5px lightblue, 2px 2px 5px lightgrey;
             }
              
