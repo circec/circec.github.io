@@ -27,7 +27,7 @@ div.encabezado{
     width: 100%;
   }
 
-header, main, footer{
+header, footer{
     background-color: rgba(51, 12, 88, 0.767);
     margin: 0 auto;
     max-width: 45rem;
@@ -55,12 +55,9 @@ hr{
 }
 
 footer{
-    background-color: rgba(51, 12, 88, 0.767);
-    height: 150px;
     text-align: center;
-    padding: 10px;
-
 }
+
 .lastu{
     color: whitesmoke;
 }
