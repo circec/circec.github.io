@@ -29,7 +29,19 @@ body{
       max-width: 860px;
       margin: 0 auto;
   }
-  
+  .color{
+      background-color: #37584b;
+      color: #dcf6ca;
+  }
+
+  .color1{
+      background-color: #a6c36f;
+      color: #1d342e;
+  }
+  .color2{
+      background-color: #a6c36f;
+      color: #1d342e;
+  }
   nav {
       background-color: #36454f;
       text-align: center;
@@ -91,6 +103,9 @@ body{
   footer {
       flex: 0 1 100%;
       height: 2rem;
+      margin: 20px auto;
+      
+
   }
   
  
