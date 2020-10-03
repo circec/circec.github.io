@@ -16,6 +16,8 @@
         nav a {
             font-size: 1.1rem;
         }
-        
+        header, footer{
+            border-radius: 10px;
+
     
 }
