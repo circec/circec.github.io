@@ -1,7 +1,7 @@
-/*font-family: 'Josefin Sans', sans-serif;*/
 body{
     background-color: #dcf6ca;
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
   h1{
@@ -21,7 +21,7 @@ body{
   nav,
   main,
   footer {
-      max-width: 960px;
+      max-width: 860px;
       margin: 0 auto;
   }
   
@@ -47,7 +47,7 @@ body{
   
   nav a:hover {
       background-color: #bbb;
-      color: #36454f;
+      color: #828c51;
   }
   .active {
       color: yellow;

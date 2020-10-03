@@ -1,7 +1,7 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (max-width: 70em){
     h1{
         /*align-items: center;*/
-        color: #1d342e;
+        color:#1d342e;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 3.5rem;
         }
@@ -9,6 +9,8 @@
             font-size: 1.5rem;
             color: #1d342e;
         }
+        body{
+            background-color: #a6c36f;
+        }
         
-            }
-      }
+}
