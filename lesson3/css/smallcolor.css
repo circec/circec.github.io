@@ -63,12 +63,11 @@ body{
   }
   
   main {
-      display: grid;
+      display: block;
       /*grid-template-columns: 1fr 1fr;*/
       font-size: 20px;
   }
-  
-  
+   
   
   img{
       max-width: 50%;
