@@ -1,0 +1,78 @@
+body {
+    background-color:#dcf6ca;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color:#375848;
+    padding: 5px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: #dcf6ca;
+    
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.m {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #1d342e;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+nav {
+    /*margin: 0 auto;
+    max-width: 760px;*/
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #375848;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #dcf6ca;
+    border-top:  1px solid rgba(0, 0, 0, 0.3);
+
+}
+nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
+nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+nav ul.hide {display: none;}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
