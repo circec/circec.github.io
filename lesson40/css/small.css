@@ -49,8 +49,6 @@ nav button {
 }
 
 nav {
-    /*margin: 0 auto;
-    max-width: 760px;*/
     font-family: 'Josefin Sans', sans-serif;
     background-color: #a6c36f;
 }
@@ -76,7 +74,7 @@ nav ul li a {
     padding: .8rem 2%;
     text-decoration: none;
     color: #dcf6ca;
-    border-top:  1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 
 }
 
@@ -88,21 +86,25 @@ nav ul li a {
     padding: 15px;
     display: flex;
     color: #333;
+    
 } 
 
 footer {
     display: block;
     background-color: #375848;
+    align-items: center;
 }
 
 .prestid {
     font-size: 2em;
     margin: 0.67em 0;
     display: block;
+    justify-items: center;
 }
 
-nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
+
 nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
 nav ul.hide {display: none;}
 
 
