@@ -34,13 +34,78 @@ header img {
 	margin-left: 20px;
 	font-size: .9rem;
 }
-
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
 nav {
-	margin: 0 auto;
-	max-width: 760px;
+	/*margin: 0 auto;
+    max-width: 760px;*/
+    font-family: 'Josefin Sans', sans-serif;
 	background-color: #a6c36f;
 }
-.navigation {
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #a6c36f;
+    border-top:  1px solid rgba(0, 0, 0, 0.3);
+
+}
+nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
+nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navigation {
 	list-style: none;
 	padding: 0;
 }
