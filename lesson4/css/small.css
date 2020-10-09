@@ -12,16 +12,24 @@ header {
 	display: flex;
 	align-items:center;
 	justify-content:center;
-    justify-content:center;
     color: #dcf6ca;
 }
 
 header img {
-@@ -30,10 +32,44 @@ header img {
+    width: 80px;
+	height: auto;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: #;
 	color: #1d342e;
 	margin-left: 20px;
 	font-size: .9rem;
@@ -30,13 +38,13 @@ header img {
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: tomato;
+	background-color: #a6c36f;
 }
 .navigation {
 	list-style: none;
 	padding: 0;
 }
-.navigation li:first-child {
+.navigation li :first-child {
 	display: block;
 }
 .navigation li {
