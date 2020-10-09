@@ -1,11 +1,11 @@
 body {
-	background-color: #bbb;
+	background-color:#dcf6ca;
 	padding: 0;
 	margin: 0;
 }
 
 header {
-	background-color: #fff;
+	background-color:#375848;
 	padding: 5px 0;
 	display: flex;
 	align-items:center;
@@ -30,7 +30,7 @@ header img {
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: forestgreen;
+	color: #;
 	margin-left: 20px;
 	font-size: .9rem;
 }
