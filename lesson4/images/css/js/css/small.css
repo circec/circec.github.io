@@ -11,7 +11,8 @@ header {
 	display: flex;
 	align-items:center;
     justify-content:center;
-    color: #dcf6ca;
+	color: #dcf6ca;
+	
 }
 
 header img {
