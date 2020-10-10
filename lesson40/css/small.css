@@ -1,18 +1,18 @@
 body {
     background-color:#dcf6ca;
     padding: 0;
-    margin: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
     background-color:#375848;
+    max-width: 860px;
     padding: 5px 0;
     display: flex;
     align-items:center;
     justify-content:center;
     color: #dcf6ca;
-    
+    margin: 0 auto;
 }
 
 header img {
@@ -90,10 +90,16 @@ nav ul li a {
     
 } 
 
+main {
+    margin: 0 auto;
+}
+
 footer {
     display: block;
     background-color: #375848;
     align-items: center;
+    max-width: 860px;
+    margin: 0 auto;
 }
 
 .prestid {
