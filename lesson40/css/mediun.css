@@ -12,6 +12,21 @@
         border-right: 1px solid rgba(0, 0, 0, 0.6);
         padding: .8rem 1rem;
     }
+
+    /*coloque desde aqui*/
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
 } 
 
 /*end medium

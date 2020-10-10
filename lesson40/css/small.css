@@ -19,9 +19,9 @@ header img {
     width: 80px;
     height: auto;
 }
-section {
+/*section {
     display: block;
-}
+}*/
 
 .headings {
     display: flex;
@@ -53,7 +53,7 @@ nav {
     background-color: #a6c36f;
 }
 
-.navigation a {
+#navigation a {
     display: block;
     padding: 0.95rem;
 }
@@ -77,6 +77,7 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 
 }
+
 
 .box {
     background-color: #828c51;
