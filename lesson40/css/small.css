@@ -1,3 +1,5 @@
+*{ -moz-box-sizing: border-box;} -webkit-box-sizing: border-box; box-sizing: border-box;}
+
 body {
     background-color:#dcf6ca;
     padding: 0;
@@ -15,14 +17,6 @@ header {
     margin: 0 auto;
 }
 
-header img {
-    width: 80px;
-    height: auto;
-}
-/*section {
-    display: block;
-}*/
-
 .headings {
     display: flex;
     flex-direction: column;
@@ -34,7 +28,6 @@ header img {
 }
 
 .m {
-    font-style: italic;
     letter-spacing: 1pt;
     color: #1d342e;
     margin-left: 20px;
@@ -51,11 +44,14 @@ nav button {
 nav {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #a6c36f;
+    margin: 0 auto;
+    max-width: 760px;
 }
 
-#navigation a {
-    display: block;
-    padding: 0.95rem;
+#navigation {
+    text-align: center;
+    list-style: none;
+    padding: 0;
 }
 
 .ham {
@@ -78,6 +74,9 @@ nav ul li a {
 
 }
 
+.responsive li {
+    display: block;
+}
 
 .box {
     background-color: #828c51;
@@ -100,6 +99,7 @@ footer {
     align-items: center;
     max-width: 860px;
     margin: 0 auto;
+    justify-content:center;
 }
 
 .prestid {
