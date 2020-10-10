@@ -36,14 +36,14 @@
 	#navigation li:first-child {
 		display: none;
     }
-    
-        
-        header img {
-            width: 50%;
+            
+        header picture {
+        width: 100%;
+                    
         }
     
         .headings h1 {
-            font-size: 2rem;
+            font-size: 3rem;
         }
     
         .m {

@@ -15,6 +15,10 @@ header {
     margin: 0 auto;
    border-radius: .5em;
 }
+header picture{
+  width: 80px;
+	height: auto;
+}
 
 .headings {
     display: flex;
@@ -25,6 +29,7 @@ header {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
+    
 }
 
 .m {
@@ -63,8 +68,10 @@ header {
 main {
     max-width: 30rem;
   display: grid;
-	grid-template-columns: 1fr;
-  margin: auto 0;
+  grid-template-columns: 1fr;
+  /* OJO para centrar un bloque*/
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
   
