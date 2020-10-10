@@ -13,7 +13,7 @@ header {
     justify-content:center;
     color: #dcf6ca;
     margin: 0 auto;
-  border-radius: .5em;
+   border-radius: .5em;
 }
 
 .headings {
@@ -62,8 +62,8 @@ header {
 
 main {
     max-width: 30rem;
-  /*display: grid;
-	grid-template-columns: 1fr;*/
+  display: grid;
+	grid-template-columns: 1fr;
   margin: auto 0;
   align-content: center;
 }
