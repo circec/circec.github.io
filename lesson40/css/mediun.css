@@ -14,8 +14,6 @@
     }
     
     
-	
-
 	.m {
 		letter-spacing: 1.5pt;
 		font-size: larger;
@@ -38,23 +36,20 @@
     }
             
         header picture {
-        width: 100%;
+        width: 20px;
+        float: left;
                     
         }
     
         .headings h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
+            text-align: left;
         }
-    
-        .m {
-            letter-spacing: 1.5pt;
-            font-size: larger;
-            margin-left: 17px;
-        }
+            
         header, footer{
             border-radius: 10px;
         }
-} 
+    } 
 
 /*end medium
 

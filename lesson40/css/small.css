@@ -13,10 +13,11 @@ header {
     justify-content:center;
     color: #dcf6ca;
     margin: 0 auto;
+    margin-top: 2rem;
    border-radius: .5em;
 }
 header picture{
-  width: 80px;
+  max-width: 80px;
 	height: auto;
 }
 
@@ -29,14 +30,16 @@ header picture{
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
+    align-items: center;
+    /*text-align: left;*/
     
 }
 
 .m {
     letter-spacing: 1pt;
-    color: #1d342e;
+    color: #000;
     margin-left: 20px;
-    font-size: .9rem;
+    font-size: 1rem;
   padding: 0.5rem;
 }
 
@@ -107,7 +110,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #dcf6ca;
+    color: #337755;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 
 }
@@ -122,11 +125,13 @@ footer {
     margin: 0 auto;
     max-width: 45rem;
     text-align: center;
-  padding-top: 1px;
-  padding-bottom: 1px;
+    padding: 0.75rem;
+  /*padding-top: 1px;
+  padding-bottom: 1px;*/
   height: 4rem;
   border-radius: .5em;
   color: #dcf6ca;
+  margin-bottom: 1rem;
  }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
