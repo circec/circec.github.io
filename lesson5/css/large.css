@@ -1,0 +1,28 @@
+@media only screen and (min-width: 64rem) {
+
+    nav button {display: none;}
+    nav ul.hide {display: block;}
+    nav ul {margin-left: 2%;}
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.6);
+        padding: .6rem 1rem;
+    }
+    
+    header h1{
+        /*align-items: center;*/
+        color: whitesmoke;
+        font-family: 'Ranchers', cursive;
+        font-size: 2.5rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        header, footer{
+            border-radius: 10px;
+        }
+} /*end large */
