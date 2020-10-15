@@ -35,14 +35,13 @@
 		display: none;
     }
             
-        header picture {
+        header picture img {
         width: 100px;
                             
         }
     
         .headings h1 {
             font-size: 2.5rem;
-            text-align: left;
         }
             
         header, footer{
