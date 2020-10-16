@@ -145,13 +145,13 @@ nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
 nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
 nav ul.hide {display: none;}
 
-.forecast{
+/*.forecast{
     margin-bottom: .7em;
   
   padding: 15px;
   display: flex;
   color: #333;
-max-width: 30rem;
+max-width: 30rem;*/
 }
 
 .forecastp{
@@ -159,23 +159,23 @@ max-width: 30rem;
 
 }
 
-table {
+/*table {
   box-shadow: 0 2px 15px gray;
 border-radius: .5em;
   box-shadow: 1px 1px 2px #0000002f;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
     
 }
-table,th,td {
+/*table,th,td {
 border: 1px solid #333;
 border-collapse: collapse;
-padding: 5px;
+padding: 5px;*/
 }
 
-td {
+/*td {
 background-color: green;
 font-size: 0.8rem;
-text-align: center;
+text-align: center;*/
 }
 
 .foto2 {
