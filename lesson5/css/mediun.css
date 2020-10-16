@@ -47,6 +47,17 @@
         header, footer{
             border-radius: 10px;
         }
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        header picture img {
+            width: 100px;
+        }
+      .summary {
+            position: absolute;
+            opacity: .9;
+        }
     } 
 
 /*end medium

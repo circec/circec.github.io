@@ -40,4 +40,15 @@
         header, footer{
             border-radius: 10px;
         }
-} /*end large */
+
+        .pestid {
+            text-align: center;
+         }
+         
+         .summary {
+                 position: absolute;
+                 opacity: .8;
+                 top: 60px;
+                 left: 700px;
+             }
+    } /*end large */
