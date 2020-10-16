@@ -6,7 +6,7 @@ document.getElementById("update").innerHTML = date.toDateString();
 function maini(){
     doBanner();
     getDate();
-    getSummary();
+    
 }
 
 function doBanner(data){
