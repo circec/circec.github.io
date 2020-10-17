@@ -3,7 +3,7 @@ let todaydate = date.getDate();
 
 document.getElementById("update").innerHTML = date.toDateString();
 
-function maini(){
+function main(){
     doBanner();
     getDate();
     
