@@ -2,8 +2,9 @@ body {
   background-color:#dcf6ca;
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
-  
+
 }
+
 header {
   background-color:#375848;
   max-width: 50rem;
@@ -14,7 +15,7 @@ header {
   color: #dcf6ca;
   margin: 0 auto;
   margin-top: 2rem;
- border-radius: .5em;
+  border-radius: .5em;
 }
 header picture img {
 max-width: 80px;
@@ -98,7 +99,7 @@ max-width: 50rem;
 main {
 /*OJO PARA REDUCIR EL TAMAÑO DEL FONDO*/
 max-width: 40rem;
-display: grid;
+/*display: grid;
 grid-template-columns: 1fr;
 /* OJO para centrar un bloque*/
 margin-left: auto;
@@ -154,7 +155,7 @@ nav ul.hide {display: none;}
 max-width: 30rem;
 }*/
 
-.forecastp{
+.forecastp {
  text-align: center;
 
 }
@@ -181,9 +182,9 @@ text-align: center;
 .foto2 {
 /*max-width: 100%;*/
 
-height: 50%;
-width: 20%;
-display: block;
+/*height: 50%;*/
+width: 100%;
+
 
 }
 
@@ -221,13 +222,13 @@ height; 300px;*/
 
 }
 
-.hero-ph img{
+.hero-ph img {
 
 box-shadow: 0 2px 15px gray;
 border-radius: .5em;
 margin: 10px auto;
-width: 960px;
-height: 250px;
+width: 100%;
+/*height: 250px;*/
 }
 
 .summary {
