@@ -183,7 +183,7 @@ text-align: center;
 
 height: 50%;
 width: 20%;
-float: right;
+display: block;
 
 }
 
