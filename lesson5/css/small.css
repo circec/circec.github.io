@@ -76,7 +76,8 @@ padding: 0.5rem;
   color: #333;
 box-shadow: 0 2px 15px gray;
 border-radius: .5em;
-max-width: 50rem;
+max-width: auto;
+height: auto;
 
 }
 
@@ -90,10 +91,11 @@ max-width: 50rem;
   color: #333;
 box-shadow: 0 2px 15px gray;
 border-radius: .5em;
-max-width: 50rem;
-
+max-width: auto;
+height: auto;
 }
 
+#box:hover { background-color: rgba(0, 0, 0, 0.4);}
 .box:hover { background-color: rgba(0, 0, 0, 0.4);}    
 
 main {
