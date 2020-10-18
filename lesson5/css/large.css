@@ -92,4 +92,8 @@
             height: 350px;
         }
 
+        .contenedor {
+            width: 100%;
+        }
+
     } /*end large */
