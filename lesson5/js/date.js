@@ -5,7 +5,7 @@ document.getElementById("update").innerHTML = date.toDateString();
 
 function main(){
     doBanner();
-    getDate();
+    getDay();
     
 }
 
