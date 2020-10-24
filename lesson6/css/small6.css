@@ -160,14 +160,17 @@ body {
   }
   
   
-  
   picture.foto2 {
   display: block;
   float: right;
-  width: 46%;
-  margin: 0 2%;
+  width: 50%;
+  margin: 0 0 0 2%;
   
   }
+  article figure .myfoto img {
+      width: 100%;
+  }
+
   
   iframe {
   border-radius: .5em;
@@ -208,8 +211,12 @@ body {
   box-shadow: 0 2px 15px gray;
   border-radius: .5em;
   margin: 10px auto;
-  width: 100%;
+  width: 50%;
   /*height: 250px;*/
+  }
+
+  figure.myfoto img {
+      width: 100%;
   }
   
   .summary {
