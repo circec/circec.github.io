@@ -1,7 +1,7 @@
 body {
     background-color:#dcf6ca;
     padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'acme', sans-serif;
   
   }
   
@@ -124,7 +124,7 @@ body {
     color: #555;
   }
   nav {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'acme', sans-serif;
     background-color: #a6c36f;
     margin: 0 auto;
     max-width: 760px;
