@@ -17,16 +17,17 @@
 </head>
 <body>
     <div id="pancakes" class="hidden"></div>
-      <header>
+      <header class="headings">
           <picture>
-              <img src="../lesson3/images/iconfinder_kweather_18095.png"alt="icono sol y nube">
+              <img src="../lesson3/images/iconfinder_kweather_18095.png" alt="icono sol y nube">
           </picture>
-          <section class="headings">
+        
+          <!--<section class="headings">-->
               <h1>Does the Weather Nice To Travel?</h1>
-              <div class="m">Check in your Wheather before going out!</div>
-      
-      </header>
-  
+              <div class="m">Check in your Wheather before going out!</div> 
+          
+      </header>     
+        
       <nav>
           <button onclick="toggleMenu()">🍔 Menu</button>
           <ul id="navigation" class="hide">
@@ -40,23 +41,20 @@
               <li class="active"><a href="#">Contact</a></li>
           </ul>
       </nav>
+    <!--</section>-->
       
-      <div class="contenedor">
           <h1 class="pestid">Preston Idaho</h1>
      <div class="herodiv">
-        <div class="hero-ph">
-            <figure class="myfoto"> 
+    <div class="hero-ph">
+    <figure class="myfoto"> 
           <img src="/lesson6/image/wdd230_image_franklinOriginal.jpeg" alt="imagen paisage" sizes="50vw"
           srcset="lesson6/image/wdd230_image_franklinOriginal200.jpeg 200w,
           lesson6/image/wdd230_image_franklinOriginal500.jpeg 500w,  
           lesson6/image/wdd230_image_franklinOriginal800.jpeg 800w
           
-          "
-                 
-          >        
-                
+          "                 
+          >   
         
-        </div>
         <section class="summary">
           <h3>Wheather Summary</h3>
           <hr>
@@ -64,13 +62,15 @@
           <li id="temperature">Current temperature:</li>
           <li id="windchill">Wind Chill:</li>
           <li id="wind">Wind Speed:</li>
-          <li id="precipitation">Humidity:</p>
+          <li id="precipitation">Humidity:</li>
           <li id="traffic">high:</li>
         </ul>
         </section>
-     </div>
+     
     </figure>
-        <section>
+</div>
+</div>
+        
        <h2 class="forecastp">5 Days Forecast</h2>
         <div class="forecast"> 
         <table>
@@ -86,17 +86,17 @@
       <tbody>
           <tr>
               <td>
-                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="5rem"><br> 
+                  <img src="/lesson5/image/weathericon(1).png" alt="sun" width="80"><br> 
               </td>
               <td>
-                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="5rem"><br> </td>
+                  <img src="/lesson5/image/weathericon(1).png" alt="sun" width="80"><br> </td>
               <td>
-                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="5rem"><br> </td>
+                  <img src="/lesson5/image/weathericon(1).png" alt="sun" width="80"><br> </td>
               <td>
-                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="5rem"><br>
+                  <img src="/lesson5/image/weathericon(1).png" alt="sun" width="80"><br>
               </td>
               <td>
-                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="5rem"><br>
+                  <img src="/lesson5/image/weathericon(1).png" alt="sun" width="80"><br>
               </td>
               
                   
@@ -107,7 +107,7 @@
           
      <article>
         <div class="clearfix" id="box4">
-          <h3 class="weatherp"></h3>
+            <h2 class="weatherp">The weather Today</h2>
           <picture class="foto2">
 
           <source media="(max-width: 400px)" srcset="lesson6/image/persona200.jpg">
@@ -119,26 +119,28 @@
           
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur tempore, debitis voluptatibus quos corrupti, minima atque facere repellendus suscipit maiores, enim excepturi velit magni eaque aliquam dicta totam quod unde asperiores. Voluptatibus nostrum, quasi eaque, ut sit voluptas repellendus, nisi illum voluptatum officiis eius nulla maxime! Iste, velit voluptatibus rem molestiae quisquam, unde recusandae ex veritatis fugiat nulla. </p> 
             </div>
+        </article>
      <div class="box">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282599746!2d-111.915344523242!3d42.09980531195205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses!2sve!4v1602784800792!5m2!1ses!2sve" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <p>Contact Information</p>
+
             <div class="item" id="item1">
             </div>
-     <div class="item" id="item2">
+
+            <div class="item" id="item2">
             </div>
-             <div class="item" id="item3">
+            
+            <div class="item" id="item3">
             </div>
+            
             <div class="item" id="item4">
             </div>
           
             
             </div>
             
-          </article>
-         
-            
-       </section>
-    </div>
+       
+    <!--</div>-->
           
        
       <footer>
@@ -150,6 +152,8 @@
     <script src="js/date.js"></script>
     <script src="js/fontLoader.js"></script>
     <script src="js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
     <script src="js/windchill.js"></script>
 </body>
 </html>
