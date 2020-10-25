@@ -184,7 +184,8 @@ body {
   
   .box p {
   text-align: center;
-  justify-self: center;
+  
+ 
   }
   
   footer {
@@ -204,14 +205,22 @@ body {
   
   .herodiv {
   position: relative;
-  /*margin: 10px auto;
-  width: 800px;
-  height; 300px;*/
-  
+    
   }
   
-  .hero-ph img {
+main figure.foto2 {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure.foto2 img {
+    width: 100%;
+}
+main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   
+.hero-ph img {
+ 
   box-shadow: 0 2px 15px gray;
   border-radius: .5em;
   margin: 10px auto;
