@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: grid;
+    padding: 0.5rem;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(6, 100px);
+    font-size: 1rem;
+  }
+  
+  div picture {
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
