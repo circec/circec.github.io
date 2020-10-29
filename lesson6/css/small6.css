@@ -76,12 +76,14 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     color: rgb(204, 221, 171); 
-    background-color: #337755;   
+    background-color: #337755; 
+    
   }
   
   .copy{
     text-align: center;
     color: #dcf6ca;
+    
   }
 
   .redes img{
