@@ -67,23 +67,34 @@ body {
     align-content: center;
   }
   
+  footer {
+    background-color: #1f2507;
+    
+
+  }
   .box {
-    background-color: #828c51;
-    margin-bottom: .7em;
-    box-shadow: 1px 1px 2px #0000002f;
-    box-sizing: border-box;
-    padding: 15px;
-    display: flex;
-    color: #333;
-  box-shadow: 0 2px 15px gray;
-  border-radius: .5em;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  height: auto;
-  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    color: rgb(204, 221, 171);    
   }
   
+  .copy{
+    text-align: center;
+    color: #dcf6ca;
+  }
+
+  .redes img{
+    padding: 0 0.5em 0 0;
+
+  }
+  
+  iframe.mapa {
+    width: 100%;
+
+  }
+
+
   #box4 {
     background-color: #828c51;
     margin-bottom: .7em;
@@ -103,20 +114,8 @@ body {
   }
   
   #box:hover { background-color: rgba(0, 0, 0, 0.4);}
-  .box:hover { background-color: rgba(0, 0, 0, 0.4);}    
-  
-  /*.contenedor {
-  /*OJO PARA REDUCIR EL TAMAÑO DEL FONDO*/
-  
- /* max-width: 40rem;
-  /*display: grid;
-  grid-template-columns: 1fr;
-  /* OJO para centrar un bloque*/
-/*margin-left: auto;
-  margin-right: auto;
-  align-content: center;*/
-  
-  
+    
+    
   .pestid {
    text-align: center;
   }
@@ -188,19 +187,19 @@ body {
    
   }
   
-  footer {
+  /*footer {
     /*display: block;*/
-    background-color: #375848;
+    /*background-color: #375848;
     margin: 0 auto;
     max-width: 60rem;
     text-align: center;
     padding: 0.75rem;
   /*padding-top: 1px;
   padding-bottom: 1px;*/
-  height: 4rem;
+  /*height: 4rem;
   border-radius: .5em;
   color: #dcf6ca;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;*/
   }
   
   .herodiv {
@@ -250,30 +249,6 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   overflow: hidden;
   }
   
-  .item {
-  margin: 1em;
-  margin-top: 8em;
-  padding: 1em;
-  height: .2em;
-  color: red;
-  float: left;
-  }
-    
-  #item1 {
-  background-color: purple;
-  }
-  
-  #item2 {
-  background-color: black;
-  }
-  
-  #item3 {
-  background-color: black;
-  }
-  
-  #item4 {
-  background-color: black;
-  }
   /*----- Clearfix: Force an Element not to collapse -----*/
   .clearfix:after {
       content: "";
