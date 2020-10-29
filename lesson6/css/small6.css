@@ -68,15 +68,15 @@ body {
   }
   
   footer {
-    background-color: #1f2507;
-    
+    background-color: #1f2507;    
 
   }
   .box {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    color: rgb(204, 221, 171);    
+    color: rgb(204, 221, 171); 
+    background-color: #337755;   
   }
   
   .copy{
@@ -93,8 +93,16 @@ body {
     width: 100%;
 
   }
-
-
+  
+  footer p {
+    line-height: 1.5;
+    font-size: 1em;
+  }
+  
+  footer a,
+  footer h3 {
+    line-height: 1em;
+  }
   #box4 {
     background-color: #828c51;
     margin-bottom: .7em;
