@@ -8,7 +8,7 @@ body {
 
 img[data-src] {
   filter: blur(0.5em);
-  -webkit-filter: blur(0.5em);
+  
 }
 
 img {
