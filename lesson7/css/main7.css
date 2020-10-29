@@ -17,6 +17,6 @@ img {
   -moz-transition: filter 1.5s;
   -ms-transition: filter 1.5s;
   -o-transition: filter 1.5s;
-  -webkit-filter: blur(1em);
+  -webkit-filter: blur(2em);
 }
   
