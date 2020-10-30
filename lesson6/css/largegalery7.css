@@ -12,8 +12,10 @@
         border-right: 1px solid rgba(0, 0, 0, 0.6);
         padding: .6rem 1rem;
     }
-    header picture img {
-        width: 200px;
+    header picture .icono {
+        max-width: 150px;
+		height: auto;
+        /*width: 200px;*/
     }
 
     /*header {
