@@ -7,8 +7,10 @@ body {
   
   header {
     background-color:#375848;
-    max-width: 50rem;
-    padding: 10px 0;
+    /*max-width: 50rem;*/
+    max-width: 100%;
+    /*padding: 10px 0;*/
+    padding: 1.5em 1em;
     display: flex;
     align-items:center;
     justify-content:center;
@@ -76,8 +78,7 @@ body {
     grid-gap: 2em;
 }
 
-header,
-	.footer,
+	footer,
 	.copy,
 .fridayalert,
 
@@ -217,41 +218,7 @@ header,
    
   }
   
-  
-  
-  .herodiv {
-  position: relative;
     
-  }
-  
-main figure.foto2 {
-    width: 50%;
-    margin: 0 0 0 2%;
-    float: right;
-}
-
-main figure.foto2 img {
-    width: 100%;
-}
-main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
-  
-.hero-ph img {
- 
-  box-shadow: 0 2px 15px #337755;
-  border-radius: .5em;
-  margin: 10px auto;
-  width: 50%;
-  /*height: 250px;*/
-  }
-
-  figure.myfoto img {
-      width: 100%;
-      
-  }
-  
- 
-  /*iconos prueba*/
-  
   /*----- Clearfix: Force an Element not to collapse -----*/
   .clearfix:after {
       content: "";
