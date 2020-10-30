@@ -63,10 +63,10 @@
         grid-gap: 0.5em;
     }
 
-    .lazygallery h2 {
-        text-align: center;
-        
+    .lazygallery h2:nth-child(1) {
+		grid-column: 1 / span 2;
     }
+
        
     /*.lazygallery :nth-child(1) {
 		grid-column: 1 / span 2;
