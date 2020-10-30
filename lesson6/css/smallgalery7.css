@@ -76,6 +76,30 @@ body {
     grid-gap: 2em;
 }
 
+.lazygallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.lazygallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.lazygallery figure {
+    text-align: center;
+}
+
+.lazygallery figcaption {
+    background-color: #f8f8f8;
+    padding: 1em;
+    margin: 0;
+}
+
+.lazygallery h2 {
+    text-align: center;
+}
+
+
   footer {
     background-color: #1f2507;    
 
@@ -168,8 +192,7 @@ body {
    text-align: center;
   
   }
-   
-  
+     
 
   /*lazy gallery*/
 
