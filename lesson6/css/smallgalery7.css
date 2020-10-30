@@ -19,7 +19,7 @@ body {
     margin-top: 2rem;
     border-radius: .5em;
   }
-  header picture .icono {
+  header .icono {
   /*max-width: 80px;
   height: auto;*/
   float: left;
