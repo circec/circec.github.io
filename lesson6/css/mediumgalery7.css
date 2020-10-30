@@ -47,7 +47,7 @@
         header, footer{
             border-radius: 10px;
         }
-        .footermenu {
+        .footer {
             grid-template-columns: 1fr 1fr;
             grid-gap: 100px;
         }

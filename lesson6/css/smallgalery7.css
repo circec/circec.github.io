@@ -116,7 +116,10 @@ body {
 
 
   footer {
-    background-color: #1f2507;    
+    background-color: #1f2507;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;    
 
   }
   .box {
