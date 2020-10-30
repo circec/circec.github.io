@@ -28,9 +28,9 @@ body {
   
   /*.headings {
     display: flex;
-    flex-direction: column;*/
+    flex-direction: column;
     
-  }
+  }*/
   
   .headings h1 {
     font-size: 1.6rem;
@@ -84,7 +84,6 @@ body {
 	footer,
 	.copy,
 .fridayalert,
-
 .lazygallery {
     margin: 0 auto;
     max-width: 100%;
