@@ -35,8 +35,9 @@ body {
   .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
-    align-items: center;
-    /*text-align: left;*/
+    /*align-items: center;
+    text-align: left;*/
+    margin-top: -1em;
     font-family: 'acme', sans-serif;
     
   }
