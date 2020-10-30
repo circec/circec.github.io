@@ -67,9 +67,9 @@
     }
 
        
-    .lazygallery :nth-child(1) {
+    /*.lazygallery :nth-child(1) {
 		grid-column: 1 / span 2;
-    }
+    }*/
 
       
     } 
