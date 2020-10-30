@@ -76,6 +76,14 @@ body {
     grid-gap: 2em;
 }
 
+/*header,
+.footermenu,
+.copyrightdetails,
+.mainarticle,
+.topsection,
+.bottomsection,
+.fridayalert,*/
+
 .lazygallery {
     margin: 0 auto;
     max-width: 100%;

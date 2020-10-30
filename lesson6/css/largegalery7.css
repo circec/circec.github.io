@@ -77,6 +77,20 @@
             max-width: 100%;
             padding: 1.8em 10em;
         }
+
+        /*header,
+	.footermenu,
+	.copyrightdetails,
+	.mainarticle,
+	.topsection,
+	.bottomsection,
+	.fridayalert,*/
+	.lazygallery {
+		margin: 0 auto;
+		max-width: 100%;
+		padding: 1.8em 10em;
+	}
+
         
         /* Lazy Gallery */
 	.lazygallery {
