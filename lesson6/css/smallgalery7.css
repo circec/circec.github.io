@@ -76,13 +76,10 @@ body {
     grid-gap: 2em;
 }
 
-/*header,
-.footermenu,
-.copyrightdetails,
-.mainarticle,
-.topsection,
-.bottomsection,
-.fridayalert,*/
+header,
+	.footer,
+	.copy,
+.fridayalert,
 
 .lazygallery {
     margin: 0 auto;

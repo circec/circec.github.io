@@ -78,13 +78,10 @@
             padding: 1.8em 10em;
         }
 
-        /*header,
-	.footermenu,
-	.copyrightdetails,
-	.mainarticle,
-	.topsection,
-	.bottomsection,
-	.fridayalert,*/
+     header,
+	.footer,
+	.copy,
+	.fridayalert,
 	.lazygallery {
 		margin: 0 auto;
 		max-width: 100%;
