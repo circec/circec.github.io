@@ -178,7 +178,7 @@ body {
     
   }
   
-  img {
+  section img {
     filter: blur(0em);
     transition: filter 0.5s;
     border-radius: 10%;
