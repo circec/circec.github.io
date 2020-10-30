@@ -76,6 +76,13 @@ body {
     grid-gap: 2em;
 }
 
+.lazygallery {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1.5em 1em;
+}
+
+
 .lazygallery img {
     filter: blur(0em);
     transition: filter 0.5s;
@@ -193,23 +200,6 @@ body {
   
   }
      
-
-  /*lazy gallery*/
-
-  img[data-src] {
-    filter: blur(0.5em);
-    
-  }
-  
-  section img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    border-radius: 10%;
-    box-shadow: 5px 10px #888;
-    
-    
-  }
-    
   
   iframe {
   border-radius: .5em;
@@ -242,7 +232,7 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   
 .hero-ph img {
  
-  box-shadow: 0 2px 15px gray;
+  box-shadow: 0 2px 15px #337755;
   border-radius: .5em;
   margin: 10px auto;
   width: 50%;
