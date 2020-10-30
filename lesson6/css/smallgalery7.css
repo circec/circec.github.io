@@ -62,12 +62,7 @@ body {
   padding: 0.5rem;
   }
   
-  #navigation {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-  }
-  
+    
   .ham {
     align-content: center;
   }
@@ -182,17 +177,33 @@ body {
     max-width: 760px;
   margin-top: 1rem;
   border-radius: .5em;
+  text-align: center;
   
   }
-  nav ul {
+
+  #navigation {
     list-style-type: none;
     padding: 0;
+  }
+#navigation li {
+    display: none;
+}
+
+  /*#navigation {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }*/
+
+  nav ul {
     margin: 0;
     overflow: hidden;
   }
-  nav ul li a {
+
+  #navigation a {
     display: block;
     padding: .8rem 2%;
+    text-align: center;
     text-decoration: none;
     color: #337755;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
