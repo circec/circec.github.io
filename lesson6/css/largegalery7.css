@@ -79,15 +79,15 @@
         }
         
         /* Lazy Gallery */
-	.lazyloadgallery {
+	.lazygallery {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	.lazyloadgallery :nth-child(1) {
+	.lazygallery :nth-child(1) {
 		grid-column: 1 / span 3;
 	}
 
-	.lazyloadgallery figure:hover {
+	.lazygallery figure:hover {
 		box-shadow: 0px 0px 11px 4px #999999;
 	}
 

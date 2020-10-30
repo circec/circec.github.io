@@ -61,12 +61,12 @@
 
         /*load gallery*/
         /* Lazy Load Gallery */
-	.lazyloadgallery {
+	.lazygallery {
         grid-template-columns: 1fr 1fr;
         grid-gap: 0.5em;
     }
     
-    .lazyloadgallery :nth-child(1) {
+    .lazygallery :nth-child(1) {
 		grid-column: 1 / span 2;
     }
 
