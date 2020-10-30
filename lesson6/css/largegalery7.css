@@ -46,29 +46,7 @@
         .pestid {
             text-align: center;
          }
-         
-         
-         .forecast th {
-                background-color: #006287;
-                height: 30px;
-                width: 120px;
-                color: white;
-                text-align: center;
-                border: 1px solid black;
-            }
-        
-            .forecast td {
-                border: 1px solid black;
-                border-collapse: initial;
-                height: 100px;
-            }
-        
-            .forecast img {
-                width: 90px;
-                height: 70px;
-                align-items: center;
-            }
-        
+                              
         
     .mapa img {
         width: 100%;
