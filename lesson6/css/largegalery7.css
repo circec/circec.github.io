@@ -28,7 +28,7 @@
         font-size: 2.5rem;
         }
 
-        .m {
+        .check {
             letter-spacing: 1.5pt;
             font-size: larger;
             margin-left: 17px;
@@ -46,13 +46,7 @@
          }
          
          
-         .summary {
-                 position: absolute;
-                 opacity: .7;
-                 bottom: 40px;
-                 left: 300px;
-             }
-             .forecast th {
+         .forecast th {
                 background-color: #006287;
                 height: 30px;
                 width: 120px;
@@ -73,27 +67,10 @@
                 align-items: center;
             }
         
-            table {
-                border-collapse: collapse;
-                margin: 80px;
-                
-    border-radius: .5em;
-  box-shadow: 1px 1px 2px #0000002f;
-  box-sizing: border-box;
-            }
-
-            table,th,td {
-                border: 1px solid #333;
-                border-collapse: collapse;
-                padding: 5px;
-            }
-           
-        .hero-ph img {
-            height: 350px;
-        }
-.mapa img {
-    width: 100%;
-}
+        
+    .mapa img {
+        width: 100%;
+    }
        
         .box {
             margin: 0 auto;
@@ -101,9 +78,19 @@
             padding: 1.8em 10em;
         }
         
+        /* Lazy Gallery */
+	.lazyloadgallery {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.lazyloadgallery :nth-child(1) {
+		grid-column: 1 / span 3;
+	}
+
+	.lazyloadgallery figure:hover {
+		box-shadow: 0px 0px 11px 4px #999999;
+	}
+
         
-        .contenedor {
-            width: 100%;
-        }
 
     } /*end large */

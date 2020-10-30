@@ -67,6 +67,15 @@ body {
     align-content: center;
   }
   
+  /*load gallery*/
+  .lazygallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 2em;
+}
+
   footer {
     background-color: #1f2507;    
 
@@ -79,7 +88,7 @@ body {
     background-color: #337755; 
     
   }
-  
+    
   .copy{
     text-align: center;
     color: #dcf6ca;
