@@ -135,6 +135,7 @@ body {
     grid-gap: 10px;
     color: rgb(204, 221, 171); 
     background-color: #337755; 
+    text-align: center;
     
   }
     
@@ -241,8 +242,8 @@ body {
   height: auto;
   }
   
-  .box p {
-  text-align: center;
+  /*.box p {
+  text-align: center;*/
    
   }
   
