@@ -6,13 +6,7 @@ body {
   
   }
   
-  main {
-    font-size: 0.9rem;
-    padding: 15px;
-    margin: 0 auto;
-    text-align: center;
-}
-
+  
   header {
     background-color:#375848;
     /*max-width: 50rem;*/
@@ -70,6 +64,11 @@ body {
   padding: 0.5rem;
   }
   
+  #navigation {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
     
   .ham {
     align-content: center;
