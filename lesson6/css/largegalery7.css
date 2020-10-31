@@ -74,9 +74,9 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	/*.lazygallery :nth-child(1) {
-		grid-column: 1 / span 2;
-	}*/
+	.lazygallery :nth-child(1) {
+		grid-column: 1 / span 3;
+	}
 
 	.lazygallery img:hover {
 		box-shadow: 0px 0px 20px #999999;
