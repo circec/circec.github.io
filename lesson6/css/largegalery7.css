@@ -17,6 +17,9 @@
 		height: auto;
         /*width: 200px;*/
     }
+    footer, main {
+        width: 70%;
+    }
 
     /*header {
         max-width: 960px;
