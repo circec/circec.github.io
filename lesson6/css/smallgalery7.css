@@ -208,7 +208,7 @@ body {
     padding: 0;
   }*/
 
-  nav ul {
+  .hide ul {
     margin: 0;
     overflow: hidden;
   }
