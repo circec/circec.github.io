@@ -17,7 +17,7 @@
 		height: auto;
         /*width: 200px;*/
     }
-     footer, main {
+     /*footer, main {
         width: 70%;
     }
 
@@ -65,7 +65,10 @@
 	.lazygallery {
 		margin: 0 auto;
 		max-width: 100%;
-		padding: 1.8em 10em;
+        padding: 1.8em 10em;
+        margin-left: auto;
+        margin-right: auto;
+
 	}
         
         
