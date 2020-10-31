@@ -76,7 +76,7 @@
 	}
 
 	.lazygallery :nth-child(1) {
-		grid-column: 1 / span 3;
+		grid-column: 1 / span 2;
 	}
 
 	.lazygallery figure:hover {
