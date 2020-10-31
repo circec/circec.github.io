@@ -5,6 +5,13 @@ body {
   
   }
   
+  main {
+    font-size: 0.9rem;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
   header {
     background-color:#375848;
     /*max-width: 50rem;*/
