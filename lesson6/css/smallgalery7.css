@@ -183,7 +183,7 @@ body {
     font-size: 1.6rem;
     color: #555;
   }
-  .hide {
+  nav {
     font-family: 'acme', sans-serif;
     background-color: #a6c36f;
     margin: 0 auto;
@@ -194,11 +194,11 @@ body {
   
   }
 
-  .hide {
+  /*.hide {
     list-style-type: none;
     padding: 0;
-  }
-  .hide li {
+  }*/
+  /*.hide li {
     display: none;
 }
 
@@ -208,12 +208,12 @@ body {
     padding: 0;
   }*/
 
-  .hide ul {
+  nav ul {
     margin: 0;
     overflow: hidden;
   }
 
-  .hide a {
+  nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-align: center;
