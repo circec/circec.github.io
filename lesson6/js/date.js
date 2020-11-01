@@ -1,3 +1,9 @@
+function main(){
+    doBanner();
+    getDate();
+    getSummary();
+}
+
 let date = new Date();
 let todaydate = date.getDate();
 
