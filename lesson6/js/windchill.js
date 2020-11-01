@@ -12,3 +12,4 @@
     return f.toFixed(2) + "&#8457;";
   }
   
+  windChill();
