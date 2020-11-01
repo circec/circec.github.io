@@ -48,20 +48,25 @@
     <div class="hero-ph">
     <figure class="myfoto"> 
           <img src="image/wdd230_image_franklinOriginal.jpeg" alt="imagen paisage" sizes="50vw"
-          srcset="lesson6/image/wdd230_image_franklinOriginal200.jpeg 200w,
-          lesson6/image/wdd230_image_franklinOriginal500.jpeg 500w,  
-          lesson6/image/wdd230_image_franklinOriginal800.jpeg 800w          
+          srcset="image/wdd230_image_franklinOriginal200.jpeg 200w,
+          image/wdd230_image_franklinOriginal500.jpeg 500w,  
+          image/wdd230_image_franklinOriginal800.jpeg 800w          
           ">   
         
         <section class="summary">
           <h3>Wheather Summary</h3>
           <hr>
+          <!--<p>Temperature: <span id="currTemp">87</span>°F</p>
+          <p>Wind Speed: <span id="windSpeed">14</span>MPH</p>
+          <p>Wind Chill: <span id="windChill">N/A</span></p>
+          <p>Humidity: <span>61</span>%</p>
+          <p>Traffic: Mild. Average delay of 20-30 minutes.</p>-->
         <ul>
           <li id="temperature">Current temperature:</li>
           <li id="windchill">Wind Chill:</li>
           <li id="wind">Wind Speed:</li>
           <li id="precipitation">Humidity:</li>
-          <li id="traffic">high:</li>
+          <li id="traffic">Traffic Rating:</li>
         </ul>
         </section>
      
@@ -144,11 +149,10 @@
         <span id="update">Fri Oct 09 2020</span>    
     </div>    
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/date.js"></script>
     <script src="js/fontLoader.js"></script>
-    <script src="js/hamburger.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-
+    <script src="js/hamburger.js"></script>  
     <script src="js/windchill.js"></script>
 </body>
 </html>
