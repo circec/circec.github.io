@@ -39,6 +39,7 @@ function getSummary(){
     let wind = getRndInteger(1,12);
     let precipitation = getRndInteger(30,100);
     let windchill = "N/A";
+    /*windChill(tempF, speed);*/
     if (temp <= 50 && wind > 3.0){
         windchill = windChill(temp, wind);
     }
