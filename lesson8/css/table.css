@@ -60,7 +60,9 @@ body {
     border-collapse: collapse;
     padding: 0.3em;
  }
-
+.titulo {
+    background-color: #7fb9c2;
+}
  th, footer {
      background-color: #628ca6;
  }
