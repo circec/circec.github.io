@@ -60,6 +60,14 @@ body {
     border-collapse: collapse;
     padding: 0.3em;
  }
+
+ th, footer {
+     background-color: #628ca6;
+ }
+
+ table tr td:nth-child(4) {
+     background-color: #628ca6;
+ }
   /*#banner{
   text-align: center;
   background-color:  #ea7317ff;
@@ -111,7 +119,7 @@ body {
 
 
   footer {
-    background-color: #1f2507;
+    /*background-color: #1f2507;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;    
