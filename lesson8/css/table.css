@@ -54,20 +54,13 @@ body {
  }
  th, td {
     width: 25%;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid #000;
+    text-align: center;
+    border: 2px solid #000;
     border-collapse: collapse;
+    border-spacing: 0;
     padding: 0.3em;
  }
- /*th:nth-child() {
-    background-color: #7fb9c2;
-}
-
- /*.first:nth-child() {
-     background-color: #628ca6;
- }*/
-
+ 
  tr:nth-child(2n) {
      background-color: #e7f0ed;
  }
@@ -81,10 +74,9 @@ body {
   color: #e7f0ed;
 }
 
-table {
-  
+caption {
+  padding: 1em;
 }
-
   /*#banner{
   text-align: center;
   background-color:  #ea7317ff;
