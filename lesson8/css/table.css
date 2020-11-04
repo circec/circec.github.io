@@ -49,10 +49,8 @@ body {
     
   }
   table {
-    width: 80%;
+    width: 100%;
     border: 1px solid #000;
-    margin-left: auto;
-    margin-right: auto;
  }
  th, td {
     width: 25%;
