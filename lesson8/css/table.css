@@ -49,8 +49,10 @@ body {
     
   }
   table {
-    width: 100%;
-    border: 1px solid #000;
+    
+    margin: auto;
+    
+    box-shadow: 20px 20px 15px 0 rgba(0, 0, 0, 0.6);
  }
  th, td {
     width: 25%;
