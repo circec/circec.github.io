@@ -74,13 +74,18 @@ body {
 .first {
   background-color: #628ca6;
   color: #e7f0ed;
+  font-weight: bold;
 }
 
 caption {
   padding: 1em;
   background-color: #7fb9c2;
+  font-weight: bold;
 }
  
+tfoot {
+  font-size: .7em;
+}
   
   .check {
     letter-spacing: 1pt;
