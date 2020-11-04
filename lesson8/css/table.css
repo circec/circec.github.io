@@ -1,5 +1,5 @@
 body {
-    background-color:#dcf6ca;
+    background-color: whitesmoke;
     padding: 0;
     font-family: 'ubuntu', sans-serif;
   
@@ -60,16 +60,31 @@ body {
     border-collapse: collapse;
     padding: 0.3em;
  }
-.titulo {
+ /*th:nth-child() {
     background-color: #7fb9c2;
 }
- th, footer {
+
+ /*.first:nth-child() {
      background-color: #628ca6;
+ }*/
+
+ tr:nth-child(2n) {
+     background-color: #e7f0ed;
  }
 
- table tr td:nth-child(4) {
-     background-color: #628ca6;
- }
+ caption, tfoot {
+  background-color: #7fb9c2;
+}
+
+.first {
+  background-color: #628ca6;
+  color: #e7f0ed;
+}
+
+table {
+  
+}
+
   /*#banner{
   text-align: center;
   background-color:  #ea7317ff;
@@ -121,7 +136,7 @@ body {
 
 
   footer {
-    /*background-color: #1f2507;*/
+    background-color: #1f2507;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;    
