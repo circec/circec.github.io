@@ -55,7 +55,7 @@ body {
  th, td {
     width: 25%;
     text-align: center;
-    border: 2px solid #000;
+    /*border: 2px solid #000;*/
     border-collapse: collapse;
     border-spacing: 0;
     padding: 0.3em;
