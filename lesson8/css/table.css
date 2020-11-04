@@ -50,24 +50,24 @@ body {
   }
   table {
     
-    margin: auto;
-    
+    margin: auto;    
     box-shadow: 20px 20px 15px 0 rgba(0, 0, 0, 0.6);
  }
- th, td {
+
+ table, th, td {
     width: 25%;
     text-align: center;
-    border: 1px solid #000;
-    /*border-collapse: collapse;*/
-    border-spacing: 0;
-    padding: 0.3em;
+    /*border: 1px solid #000;*/
+    border-collapse: collapse;
+    border: 2px solid #555;
+    padding: 0.4em;
  }
  
  tr:nth-child(2n) {
      background-color: #e7f0ed;
  }
 
- caption, tfoot {
+ thead, tfoot {
   background-color: #7fb9c2;
 }
 
@@ -78,18 +78,9 @@ body {
 
 caption {
   padding: 1em;
+  background-color: #7fb9c2;
 }
-  /*#banner{
-  text-align: center;
-  background-color:  #ea7317ff;
-  padding: 2em;
-  }
-  
-  #banner h2, #banner p{
-  margin: .5em;
-  color: white;
-  }*/
-  
+ 
   
   .check {
     letter-spacing: 1pt;
@@ -109,15 +100,7 @@ caption {
     align-content: center;
   }
   
-  /*load gallery*/
-  /*.lazygallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    grid-gap: 2em;
-}*/
-
+ 
 	footer,
 	.copy,
 .fridayalert,
@@ -248,4 +231,14 @@ caption {
       clear: both;
     }
   
-  
+  @media only screen and (min-width: 40rem) {
+    table {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (min-width: 64rem) {
+    table {
+      font-size: 1.5rem;
+    }
+  }
