@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
 body {
     background-color: whitesmoke;
     padding: 0;
-    font-family: 'ubuntu', sans-serif;
-  
+    
   }
   main {
     font-size: 1rem;
@@ -66,6 +67,9 @@ body {
  tr:nth-child(2n) {
      background-color: #e7f0ed;
  }
+ tr:nth-child(5) td:nth-child(1) {
+  font-style: italic;
+}
 
  thead, tfoot {
   background-color: #7fb9c2;
