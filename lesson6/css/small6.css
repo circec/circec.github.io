@@ -68,7 +68,8 @@ body {
   }
   
   footer {
-    background-color: #1f2507;    
+    background-color: #1f2507;
+    border-radius: .5em;    
 
   }
   .box {

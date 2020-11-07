@@ -1,17 +1,31 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
+    /*header, nav, main, footer {
         max-width: 64rem;
         margin:auto;
-    }
+    }*/
 
 /*----------- BODY --------------*/
 
 
 
 /*----------- HEADER --------------*/
+header picture img {
+    width: 200px;
+}
 
+header {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1{
+    /*align-items: center;*/
+    color: whitesmoke;
+    font-family: 'Ranchers', cursive;
+    font-size: 2.5rem;
+    }
 
 
 /*----------- NAVIGATION --------------*/
@@ -22,8 +36,27 @@
 form label {
     padding: .4rem 0;
 }
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+fieldset legend.top {
+    align-content: center;
+}
+form input.submitBtn:hover {
+  border-radius: 1.2rem;
+  background-color: green;
+  color: #fff;
+  font-size: 1.25em;
+}
 
-
+h1, .check {
+    text-align: center;
+  }
 /*----------- FOOTER --------------*/
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
     
+  }
 } /* end of media query */
