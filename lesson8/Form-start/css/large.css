@@ -53,6 +53,12 @@ form input.submitBtn:hover {
 h1, .check {
     text-align: center;
   }
+
+.top1 {
+    width: 100%;
+    margin: auto 0;
+    padding: auto 0;
+}  
 /*----------- FOOTER --------------*/
 footer {
     max-width: 1000px;
