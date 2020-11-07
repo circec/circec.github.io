@@ -56,31 +56,59 @@
         
     <form method="get" action="thanks.html">
         <fieldset>
-            <legend>Applicant information</legend>
-            <label class="top">First Name* <input type="text" name="fname" required></label>
-            <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name* <input type="text" name="fname" required></label>
+            <!--<label class="top">Last Name* <input type="text" name="lname" required></label>-->
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            
+            <label class="top">Zip Code <input type="number" name="code" required></label>
         </fieldset>
         <fieldset>
-            <legend>Curse Information</legend>
-            <div>Audience</div>
-            <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
-            <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
-            <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
+            <legend>Storm Information</legend>
 
-            <div>Sofware Needed</div>
-            <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-            <label class="sbs"><input type="checkbox" name="code" value="yes">Coding</label>
-            <label class="sbs"><input type="checkbox" name="process" value="yes">Prepocessor</label>
-            <label class="sbs"><input type="checkbox" name="client" value="yes">FTP Client</label>
+            <!--<div>Storm Date</div>-->
+            <!--<label class="sbs">Storm Date<input type="radio" name="audience" value="beginner">Beginner</label>-->
+
+            <label>Storm Date
+                <input type="date" name="theDate"></label><br>
+                
+            <!--<label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>-->
+
+            <label for="stormType">Storm Type:
+				<input name="stormType" list="StormTypelist"></label>
+			<datalist id="stormTypeList">
+				<option value="Flash Flood">
+				<option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstone">
+                <option value="Tornado">    
+			</datalist>
+            <br><br>
+            <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                
+				<!--<span id="ratingvalue"></span>-->
+            </label>
+            <label for="selecregion">Select Region:
+				<select name="browsers" id="selectbrowser" onchange="selectResponse()">
+					<option value="" disabled>Select Region...</option>
+					<option value="Preston">Preston</option>
+					<option value="Soda Spring">Soda Springs</option>
+					<option value="Fish Haven">Fish Haven</option>					
+                </select></label>
+                
+            <div>User in-danger level</div>
+            <label class="sbs"><input type="radio" name="danger">Yes</label>
+            <label class="sbs"><input type="radio" name="danger">Maybe</label>
+            <label class="sbs"><input type="radio" name="danger">No</label>
+            
         </fieldset>
 
         <fieldset>
-        <legend>Funding</legend>
-            <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
-            <label class="top">Curse Subject
+        <legend>Comments</legend>
+            <label class="top"><input type="tex" name="comments"></label>
+            <!--<label class="top">Curse Subject
                 <select name="subject">
                     <option value="">Please Select</option>
                     <option value="software">Software Development</option>
@@ -90,11 +118,11 @@
                     <option value="construction">Construction</option>
                     <option value="manufacturing">Manufacturing</option>
                     <option value="business">Business Professional</option>
-                </select>
+                </select>-->
             </label>
-            <label>How Many Authors <input type="number" name="authors"></label>
+            <!--<label>How Many Authors <input type="number" name="authors"></label>-->
         </fieldset>
-        <input type="submit" value = "Propose My Course" class="submitBtn">
+        <input type="submit" value = "Report Weather Event" class="submitBtn">
 
     </form>          
         
