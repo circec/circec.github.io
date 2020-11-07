@@ -1,16 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
-
-<!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
-
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT 230 Web Fronted Development | BYU-Idaho | 2020</title>
+    <meta name="description" content="Wheather Assigment Portal For CIT 230">
+    <meta name="author" content="Circe Condales">
+    <link rel="shortcut icon" href="favicon.ico">
 
 
 
@@ -28,36 +24,71 @@
 </head>
 <body>
 <!-- HEADER HERE -->
-	<header>
- <h1>Course Proposal</h1>
-        <h2>Designing Web Forms</h2>
-    </header>
+<header class="headings">
+          
+    <img class="icono" src="/lesson8/Form-start/images/iconfinder_kweather_18095.png" alt="icono sol y nube">
+
+    <h1>Does the Weather Nice To Travel?</h1>
+    <div class="check">Check in your Wheather before going out!</div> 
+
+</header>
     
     
 <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul >
-            <li><a href="#">About</a></li>
-            <li class="active"><a href="#">Propose</a></li>
-            <li><a href="#">Winners</a></li>
-            <li><a href="#">Contact</a></li>    
-        </ul>
-    </nav>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">🍔 Menu</button>
+      <ul id="navigation" class="hide">
+         
+          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#">About</a></li>
+          <li class="active"><a href="#">Service</a></li>
+          <li class="active"><a href="#">Products</a></li>
+          <li class="active"><a href="#">Feedback</a></li>
+          <li class="active"><a href="#">Storm Center</a></li>
+          <li class="active"><a href="/lesson6/gallery-7.html">Gallery</a></li>
+      </ul>
+</nav>
     
     
 <!-- CONTENT HERE -->
 <main>
-    <h1>Course Proposal Application</h1>
-        <p>Thanks for applying to create a course for our online library. We will get back to you within a week with a response.</p>
+    <h1>Storm Center Report</h1>
+        <p>Thanks for your report. We will get back to you as soon as possible.</p>
 
           
         
     </main>
     
 <!-- FOOTER HERE -->   
-    <footer>
-        &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
-    </footer>
-<script src="js/scripts.js"></script>
+<footer>
+    <div class="box">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282599746!2d-111.915344523242!3d42.09980531195205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses!2sve!4v1602784800792!5m2!1ses!2sve" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <h3>Contact Information</h3>
+        
+        <p>&#128241; +58-4241747366</p>           
+            
+            <div class="redes">
+                <a href="#" target="_blank"><img src="image/twitter.png" alt="icon twitter"></a>
+                <a href="#" target="_blank"><img src="image/instagram.png" alt="icon instagram"></a>
+                <a href="#" target="_blank"><img src="image/facebook.png" alt="icon facebook"></a>
+            </div>
+
+    </div>
+    <div class="copy">   
+        
+        <p>©The Night Horizon | Attributions | Circe Condales</p>
+        <a href="../index.html">Assigment Portal</a><br>
+        
+                               
+        <p><span id="update">Fri Oct 09 2020 22:16:50</span></p>    
+    </div>
+</footer>
+<script src="../js/date.js"></script>
+    <script src="../js/fontLoader.js"></script>
+    <script src="../js/hamburger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
 </body>
 </html>
