@@ -115,7 +115,7 @@ form fieldset {
     padding: .5rem 2%;
 }
 
-form legend {
+form .top1 {
     color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
@@ -178,11 +178,11 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-.top1 {
+/*.top1 {
   width: 100%;
   margin: auto 0;
   padding: auto 0;
-}  
+}*/  
 
 
 /*----------- FOOTER --------------*/
