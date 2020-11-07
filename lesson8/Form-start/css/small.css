@@ -109,8 +109,8 @@ main {
 /*------------ MAIN ---------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
+    border: 2px solid #1f2507;
+    border-radius: 1px;
     padding: .5rem 2%;
 }
 
@@ -123,7 +123,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #337755;
     font-size: .8rem;
 }
 
@@ -148,7 +148,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #337755;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

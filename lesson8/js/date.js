@@ -22,5 +22,5 @@ const daynames = [
 
 // Range Adjustment
 function adjustRating(rating) {
-  document.getElementById("rating").innerHTML = rating;
+  document.getElementById("ratingvalue").innerHTML = rating;
 }

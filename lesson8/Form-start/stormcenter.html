@@ -26,7 +26,7 @@
 	
     <header class="headings">
           
-        <img class="icono" src="../lesson3/images/iconfinder_kweather_18095.png" alt="icono sol y nube">
+        <img class="icono" src="/lesson8/Form-start/images/iconfinder_kweather_18095.png" alt="icono sol y nube">
     
         <h1>Does the Weather Nice To Travel?</h1>
         <div class="check">Check in your Wheather before going out!</div> 
@@ -52,7 +52,7 @@
     
 <!-- CONTENT HERE -->
 <main>
-    <h1>Course Proposal Application</h1>
+    <h1>Check Your Weather Before Going Out¡</h1>
         
     <form method="get" action="thanks.html">
         <fieldset>
@@ -67,16 +67,12 @@
         <fieldset>
             <legend>Storm Information</legend>
 
-            <!--<div>Storm Date</div>-->
-            <!--<label class="sbs">Storm Date<input type="radio" name="audience" value="beginner">Beginner</label>-->
-
+            
             <label>Storm Date
-                <input type="date" name="theDate"></label><br>
+                <input type="date" name="theDate"></label>
                 
-            <!--<label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>-->
-
             <label for="stormType">Storm Type:
-				<input name="stormType" list="StormTypelist"></label>
+				<input name="stormType" list="StormTypelist"></label><br>
 			<datalist id="stormTypeList">
 				<option value="Flash Flood">
 				<option value="Hail">
@@ -85,11 +81,11 @@
                 <option value="Tornado">    
 			</datalist>
             <br><br>
-            <label class="flexly" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+            <label for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;<span id="ratingvalue">5</span>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 
-				<!--<span id="ratingvalue"></span>-->
-            </label>
+				<!---->
+            </label><br>
             <label for="selecregion">Select Region:
 				<select name="browsers" id="selectbrowser" onchange="selectResponse()">
 					<option value="" disabled>Select Region...</option>
@@ -108,17 +104,7 @@
         <fieldset>
         <legend>Comments</legend>
             <label class="top"><input type="tex" name="comments"></label>
-            <!--<label class="top">Curse Subject
-                <select name="subject">
-                    <option value="">Please Select</option>
-                    <option value="software">Software Development</option>
-                    <option value="creative">Creative Professional</option>
-                    <option value="info">Information Technology</option>
-                    <option value="data">Data Professional</option>
-                    <option value="construction">Construction</option>
-                    <option value="manufacturing">Manufacturing</option>
-                    <option value="business">Business Professional</option>
-                </select>-->
+           
             </label>
             <!--<label>How Many Authors <input type="number" name="authors"></label>-->
         </fieldset>
