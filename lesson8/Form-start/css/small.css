@@ -109,8 +109,9 @@ main {
 /*------------ MAIN ---------------*/
 form fieldset {
     margin: 2rem 0;
-    border: 2px solid #1f2507;
-    border-radius: 1px;
+    /*border: 2px solid #1f2507;*/
+    border-color: #1f2507;
+    border-radius: 20px;
     padding: .5rem 2%;
 }
 
@@ -141,10 +142,13 @@ form label.top input, form label.top select {
 }
 
 form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
+    
+    float: left;
+  text-align: center;
+  padding: .75rem 0;
+  width: 30%;
 }
+
 
 form input.submitBtn {
     border: none;
