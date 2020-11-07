@@ -65,7 +65,6 @@
         </fieldset>
         <fieldset>
             <legend>Storm Information</legend>
-
             
             <label>Storm Date
                 <input type="date" name="theDate"></label><br><br>
@@ -94,12 +93,12 @@
                     <option value="8">
                     <option value="9">
                     <option value="10">
-                </datalist><br><br>    
+                </datalist><br><br>   
                 
 				
             </label><br>
-            <label for="selecregion">Select Region:
-				<select name="browsers" id="selectbrowser" onchange="selectResponse()">
+            <label for="selectregion">Select Region:
+				<select name="region" id="selectregion" onchange="selectRegion()">
 					<option value="" disabled>Select Region...</option>
 					<option value="Preston">Preston</option>
 					<option value="Soda Spring">Soda Springs</option>
@@ -109,9 +108,8 @@
             <div>User in-danger level</div>
             <label class="sbs"><input type="radio" name="danger">Yes</label>
             <label class="sbs"><input type="radio" name="danger">Maybe</label>
-            <label class="sbs"><input type="radio" name="danger">No<label>                       
-            
-            
+            <label class="sbs"><input type="radio" name="danger">No</label>                      
+                        
         </fieldset>
 
         <fieldset>
