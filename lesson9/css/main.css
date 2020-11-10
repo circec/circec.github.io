@@ -14,7 +14,7 @@ main {
   
   section {
    background-color: rgb(red, green, rgb(50, 78, 77));
-   border: solid 1.5em rgb(red, green, rgb(17, 17, 46));
+   border: solid 3em rgb(red, green, rgb(17, 17, 46));
     padding: 1em;
     color: rgb(red, green, rgb(3, 43, 36));
     margin: .25em;
