@@ -41,6 +41,15 @@ main {
     
     background-color: rgba(161, 184, 214, 0.521);
   }
+
+  footer {
+    background-color: #084174;
+    padding: 10px;
+    text-align: center;
+    color:rgb(143, 229, 225);
+    
+    margin: 0 auto;
+  }
   
   @media screen and (min-width: 35em) {
     .cards {
