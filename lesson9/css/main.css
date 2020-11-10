@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: rgb(red, green, rgb(143, 143, 219));
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+main {
+    margin: 1.5em 0;
+    /*box-shadow: 0 0 1.5em 1.5em rgba(0, 0, 0, 0.35);*/
+    padding: 1em;
+  }
+  
+  section {
+   background-color: rgb(red, green, rgb(149, 233, 229));
+    padding: 1em;
+    color: rgb(red, green, rgb(3, 43, 36));
+    margin: .25em;
+  }
+  
+  h1, h2{
+    font-family: 'Lobster', cursive;
+    color: rgb(red, green, rgb(3, 43, 36))
+  }
+  
+  h1{
+    font-size: 3em;
+  }
+  
+  h2{
+    font-size: 2em;
+  }
+  
+  section img {
+    /*box-shadow: 6px 6px 8px black;*/
+    max-height: 50vw;
+  }
+  
+  section:hover {
+    
+    background-color: rgba(161, 184, 214, 0.521);
+  }
+  
+  @media screen and (min-width: 35em) {
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    main{
+      margin: 1em;
+    }
+  
+    section img{
+      max-width: 90%;
+    }
+  }
+  
+  @media screen and (min-width: 64em) {
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+    section img{
+      max-width: 90%;
+    }
+  }
