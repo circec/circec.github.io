@@ -8,12 +8,12 @@ body {
 
 main {
     margin: 1.5em 0;
-    box-shadow: 0 0 10px 5px rgb(61, 188, 192);
+    box-shadow: 0 0 10px 5px rgb(7, 71, 73);
     padding: 1em;
   }
   
   section {
-   background-color: rgb(red, green, rgb(50, 78, 77));
+   /*background-color: rgb(red, green, rgb(50, 78, 77));*/
    border: solid 3em rgb(red, green, rgb(17, 17, 46));
     padding: 1em;
     color: rgb(red, green, rgb(3, 43, 36));
