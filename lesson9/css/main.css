@@ -3,7 +3,7 @@
 body {
     background-color: rgb(red, green, rgb(143, 143, 219));
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'poppins', cursive;
 }
 
 main {
@@ -13,7 +13,7 @@ main {
   }
   
   section {
-   background-color: rgb(red, green, rgb(149, 233, 229));
+   background-color: rgb(red, green, rgb(50, 78, 77));
     padding: 1em;
     color: rgb(red, green, rgb(3, 43, 36));
     margin: .25em;
@@ -34,6 +34,7 @@ main {
   
   section img {
     /*box-shadow: 6px 6px 8px black;*/
+    border: solid 1.5em rgb(red, green, rgb(17, 17, 46));
     max-height: 50vw;
   }
   
