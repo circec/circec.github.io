@@ -34,7 +34,7 @@ main {
   }
   
   section img {
-    /*box-shadow: 6px 6px 8px black;*/
+    box-shadow: 6px 6px 8px black;
 
     
     max-height: 50vw;
