@@ -13,11 +13,11 @@ main {
   }
   
   section {
-   /*background-color: rgb(red, green, rgb(50, 78, 77));*/
-   border: 2em solid;
-    padding: 1em;
-    color: rgb(red, green, rgb(3, 43, 36));
-    margin: .25em;
+   background-color: rgb(red, green, rgb(56, 228, 222));
+   border: solid 2em rgb(7, 71, 73);
+    
+    
+    margin: .35em;
   }
   
   h1, h2{
