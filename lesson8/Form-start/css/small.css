@@ -51,11 +51,11 @@ header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
-#navigation {
+/*#navigation {
     text-align: center;
     list-style: none;
     padding: 0;
-  }
+  }*/
     
   .ham {
     align-content: center;
@@ -81,8 +81,10 @@ header h2 {margin: 0; font-weight: normal;}
   }
   
   nav ul {
+    list-style-type: none;
     margin: 0;
-    overflow: hidden;
+    padding: 0;
+    /*overflow: hidden;*/
   }
 
   nav ul li a {
@@ -96,7 +98,7 @@ header h2 {margin: 0; font-weight: normal;}
   }
   
   
-  nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+  nav ul li.active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
   nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
   nav ul.hide {display: none;}
   

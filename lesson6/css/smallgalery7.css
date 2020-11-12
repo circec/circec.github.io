@@ -168,8 +168,7 @@ body {
   footer h3 {
     line-height: 1em;
   }
-    
-  /*#box:hover { background-color: rgba(0, 0, 0, 0.4);}*/
+   
     
     
   .pestid {
@@ -228,7 +227,7 @@ body {
   }
   
   nav ul li .active a{ 
-    background-color: green; 
+    background-color: yellow; 
     color: white;
     font-weight: bold;
   }
