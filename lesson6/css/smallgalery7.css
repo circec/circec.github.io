@@ -209,7 +209,9 @@ body {
   }*/
 
   nav ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
     overflow: hidden;
   }
 
@@ -220,12 +222,20 @@ body {
     text-decoration: none;
     color: #337755;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+    background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;
   
   }
   
+  nav ul li .active a{ 
+    background-color: green; 
+    color: white;
+    font-weight: bold;
+  }
   
-  nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
-  nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
+  
+  
+  .noactive:hover { background-color: rgba(0, 0, 0, 0.3);}
   nav ul.hide {display: none;}
   
   
