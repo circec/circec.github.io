@@ -37,9 +37,8 @@
 
 
     section:nth-child(odd) {
-        /*flex-direction: row-reverse;*/
-        grid-column: 1;
-	grid-row: 1;
+        flex-direction: row-reverse;
+       
     }
 
     section {
