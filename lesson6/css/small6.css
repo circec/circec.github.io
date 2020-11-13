@@ -186,7 +186,7 @@ body {
   margin: 0 0 0 2%;
   
   }
-  article figure .myfoto img {
+  article figure.myfoto img {
       width: 100%;
   }
 
