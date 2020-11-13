@@ -20,11 +20,18 @@
 		margin-left: 17px;
     }
 
-    .galery {
+    .secdtdiv {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+    .sectdiv img {
+        width: 70%;
+        overflow: hidden;
+    }
+
+    .display {
+        margin-bottom: 20px;
+    }
     /*coloque desde aqui*/
     #navigation {
 		display: flex;
