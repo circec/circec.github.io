@@ -156,20 +156,12 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   box-shadow: 0 0 20px rgb(71, 71, 71);
   }
   
-  .cards {
-    grid-gap: 15px;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.galery {
-  margin-bottom: 30px;
-  text-align: center;
-}
 
 .galery {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .galery img {

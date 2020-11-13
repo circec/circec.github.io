@@ -36,10 +36,10 @@
     }
 
 
-    section:nth-child(odd) {
+    /*section:nth-child(odd) {
         flex-direction: row-reverse;
        
-    }
+    }*/
 
     section {
         display: flex;
