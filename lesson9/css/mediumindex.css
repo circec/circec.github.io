@@ -34,6 +34,19 @@
     .display {
         margin-bottom: 20px;
     }
+
+
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        overflow: hidden;
+    }
+
     /*coloque desde aqui*/
     #navigation {
 		display: flex;
