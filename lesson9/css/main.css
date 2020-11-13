@@ -32,6 +32,9 @@ main {
     font-size: 2em;
   }
   
+  h3 {
+    font-size: 1em;
+  }
   section img {
     box-shadow: 6px 6px 8px black;
 
