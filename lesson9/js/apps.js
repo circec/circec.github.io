@@ -5,31 +5,48 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);  
+    
+    // console.table(jsonObject); // temporary checking for valid response and data parsing
   
 
-  const prophets = jsonObject['towns'];
+  const towns = jsonObject['towns'];
 
-  for (let i = 0; i < prophets.length; i++ ) {
-
-  
-  let card = document.createElement('section');
-  let h2 = document.createElement('h2');
-  let birthdate = document.createElement('p');
-  let birthplace = document.createElement('p');
-  let portrait = document.createElement('img');
+  towns.forEach(towns => {
 
 
-  h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-  birthdate.textContent = "Day of Birth: " + prophets[i].birthdate;
-  birthplace.textContent = "Place of Birth: " + prophets[i].birthplace;
-  portrait.setAttribute('src', prophets[i].imageurl);
+    if (towns.name == 'Preston' || towns.name == 'Fish Haven' || towns.name == 'Soda Springs') {
 
-  card.appendChild(h2);
-  card.appendChild(birthdate);
-  card.appendChild(birthplace);
-  card.appendChild(portrait);
+        let card = document.createElement('section');
 
-  document.querySelector('div.cards').appendChild(card);
-  }
+        let display = document.createElement('div');
+        let motto = document.createElement('h3');
+        let yearFounded = document.createElement('h3');
+        let currentPopulation = document.createElement('h3');
+        let photo = document.createElement('img');
+        let name = document.createElement('h2');
+        let averageRainfall = document.createElement('h3');
+
+        photo.setAttribute('src', towns.photo);
+        motto.innerHTML = `<i>${towns.motto}`;
+        display.setAttribute('class', 'display');
+        card.setAttribute('class', 'sectdiv');
+
+        currentPopulation.innerHTML = `Population: ${towns.currentPopulation}`;
+        yearFounded.innerHTML = `Year Founded: ${towns.yearFounded}`;
+        name.innerHTML = `${towns.name}`;
+        averageRainfall.innerHTML = `Average Rainfall :${towns.averageRainfall}`;
+        card.appendChild(display);
+        display.appendChild(name);
+
+        display.appendChild(motto);
+        display.appendChild(yearFounded);
+        display.appendChild(currentPopulation);
+        display.appendChild(averageRainfall);
+
+        card.appendChild(photo);
+
+        document.querySelector('div.cards').appendChild(card);
+    }
+});
 });
