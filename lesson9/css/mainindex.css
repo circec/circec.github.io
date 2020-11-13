@@ -183,6 +183,12 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   padding: .5em;
   margin: 1em;
 }*/
+section {
+  border: 5px outset #337733;
+  background-color: #d6d5c9;
+  box-shadow: 2px 2px 2px rgb(69, 71, 73);
+margin: 1em;
+}
 
 
 
