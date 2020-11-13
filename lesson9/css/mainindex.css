@@ -178,6 +178,19 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   margin-top: 35px;
 }
 
+.cards {
+  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+section {
+  border: 5px outset #337755;
+  background-color: #d6d5c9;
+  box-shadow: 2px 2px 2px rgb(69, 71, 73);
+}
+
+
 
   
   /*-------------footer------------*/
