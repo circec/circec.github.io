@@ -10,7 +10,7 @@ fetch(requestURL)
     // console.table(jsonObject); // temporary checking for valid response and data parsing
   
 
-  const towns = jsonObject['towns'];
+ /* const towns = jsonObject['towns'];
 
   towns.forEach(towns => {
 
@@ -46,13 +46,13 @@ fetch(requestURL)
 
         card.appendChild(photo);
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.towns').appendChild(card);
     }
 });
-});
+});*/
 
 
-/*const towns = jsonObject['towns'];
+const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
@@ -82,4 +82,4 @@ fetch(requestURL)
             }
 
         }
-    });*/
+    });
