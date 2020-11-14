@@ -164,7 +164,7 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   text-align: center;
 }
 
-.towns img {
+.towns section img {
   box-shadow: 5px 5px 5px #333;
   width: 100%;
   margin-top: 35px;
