@@ -72,7 +72,7 @@ const towns = jsonObject['towns'];
                 founded.textContent = "Year Founded: " + towns[i].yearFounded;
                 population.textContent = "Population: " + towns[i].currentPopulation;
                 rain.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-                image.setAttribute('src', "images/" + towns[i].photo);
+                image.setAttribute('src', "image/" + towns[i].photo);
                 image.setAttribute('alt', towns[i].name);
 
                 textcontainer.append(h2, motto, founded, population, rain);
