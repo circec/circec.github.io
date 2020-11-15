@@ -22,24 +22,7 @@
     h3 {
         font-size: 1em;
       }
-    /*.secdtdiv {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .sectdiv img {
-        width: 70%;
-        overflow: hidden;
-    }
-
-    .display {
-        margin-bottom: 20px;
-    }*/
-
-
-    /*section:nth-child(odd) {
-        flex-direction: row-reverse;
-       
-    }*/
+    
 
     section {
         display: flex;

@@ -12,10 +12,14 @@
         border-right: 1px solid rgba(0, 0, 0, 0.6);
         padding: .6rem 1rem;
     }
+
+    nav ul li.active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+  nav ul li.sinac a:hover { background-color: rgba(0, 0, 0, 0.6);}
+  nav ul.hide {display: none;}
     header picture img {
         width: 200px;
     }
-    
+
     header .icono {
         
         float: left;
