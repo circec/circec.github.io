@@ -138,7 +138,7 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   border-radius: .5em;
   margin: 10px auto;
   width: 50%;
-  /*height: 250px;*/
+  
   }
 
   figure.myfoto img {
@@ -157,7 +157,7 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   }
   
 
-/*.towns {
+.towns {
   display: grid;
   grid-template-columns: 1fr;
   margin-bottom: 30px;
@@ -176,21 +176,22 @@ main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
   grid-template-columns: 1fr;
 }
 
-/*.summary {
+.summary {
   border: 5px outset #337755;
   background-color: #d6d5c9;
   box-shadow: 2px 2px 2px rgb(69, 71, 73);
   padding: .5em;
   margin: 1em;
-}*/
+}
 
-/*section .towns {
+.towns section {
   border: 5px outset #337733;
   background-color: #d6d5c9;
   box-shadow: 2px 2px 2px rgb(69, 71, 73);
 margin: 1em;
-}*/
-.towns {
+}
+
+/*.towns {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -234,7 +235,7 @@ margin: 1em;
 
 .Fish {
   order: 3;
-}
+}*/
 
 
 
