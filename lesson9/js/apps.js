@@ -65,7 +65,7 @@ const towns = jsonObject['towns'];
                 let rain = document.createElement('p');
                 let image = document.createElement('img');
 
-                //dle code for populating info
+                // code for populating info
                 towninfo.setAttribute('class', towns[i].name);
                 h2.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
