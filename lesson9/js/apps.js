@@ -56,7 +56,7 @@ const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
-                let towninfodenise = document.createElement('section');
+                let towninfo = document.createElement('section');
                 let textcontainer = document.createElement('div');
                 let h2 = document.createElement('h2');
                 let motto = document.createElement('h3');
@@ -66,7 +66,7 @@ const towns = jsonObject['towns'];
                 let image = document.createElement('img');
 
                 //dle code for populating info
-                towninfodenise.setAttribute('class', towns[i].name);
+                towninfo.setAttribute('class', towns[i].name);
                 h2.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
                 founded.textContent = "Year Founded: " + towns[i].yearFounded;
@@ -76,9 +76,9 @@ const towns = jsonObject['towns'];
                 image.setAttribute('alt', towns[i].name);
 
                 textcontainer.append(h2, motto, founded, population, rain);
-                towninfodenise.append(textcontainer, image);
+                towninfo.append(textcontainer, image);
 
-                document.querySelector('div.towns').appendChild(towninfodenise);
+                document.querySelector('div.towns').appendChild(towninfo);
             }
 
         }
