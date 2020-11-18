@@ -1,0 +1,260 @@
+body {
+    background-color:#dcf6ca;
+    padding: 0;
+    font-family: 'acme', sans-serif;
+  
+  }
+  
+  header {
+    background-color:#375848;
+    max-width: 50rem;
+    padding: 10px 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: #dcf6ca;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: .5em;
+  }
+  header picture img {
+  max-width: 80px;
+  height: auto;
+  }
+  
+  .headings {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    align-items: center;
+    /*text-align: left;*/
+    font-family: 'acme', sans-serif;
+    
+  }
+  
+  #banner{
+  text-align: center;
+  background-color:  #ea7317ff;
+  padding: 2em;
+  }
+  
+  #banner h2, #banner p{
+  margin: .5em;
+  color: white;
+  }
+  
+  
+  .m {
+    letter-spacing: 1pt;
+    color: #000;
+    margin-left: 20px;
+    font-size: 1rem;
+  padding: 0.5rem;
+  }
+  
+  #navigation {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ham {
+    align-content: center;
+  }
+  
+  footer {
+    background-color: #1f2507;
+    border-radius: .5em;    
+
+  }
+  .box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    color: rgb(204, 221, 171); 
+    background-color: #337755; 
+    
+  }
+  
+  .copy{
+    text-align: center;
+    color: #dcf6ca;
+    
+  }
+
+  .redes img{
+    padding: 0 0.5em 0 0;
+
+  }
+  
+  iframe.mapa {
+    width: 100%;
+
+  }
+  
+  footer p {
+    line-height: 1.5;
+    font-size: 1em;
+  }
+  
+  footer a {
+    color: aquamarine;
+    font-size: 1em;
+  }
+  footer a,
+  footer h3 {
+    line-height: 1em;
+  }
+  #box4 {
+    background-color: #828c51;
+    margin-bottom: .7em;
+    box-shadow: 1px 1px 2px #0000002f;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    color: #333;
+  box-shadow: 0 2px 15px gray;
+  border-radius: .5em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  /*height: auto;*/
+  box-sizing: border-box;
+  }
+  
+  #box:hover { background-color: rgba(0, 0, 0, 0.4);}
+    
+    
+  .pestid {
+   text-align: center;
+  }
+  
+  nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+  }
+  nav {
+    font-family: 'acme', sans-serif;
+    background-color: #a6c36f;
+    margin: 0 auto;
+    max-width: 760px;
+  margin-top: 1rem;
+  border-radius: .5em;
+  
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #337755;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  
+  nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+  nav ul li a:hover { background-color: rgba(0, 0, 0, 0.6);}
+  nav ul.hide {display: none;}
+  
+  
+  
+  .forecastp {
+   text-align: center;
+  
+  }
+  
+  
+  picture.foto2 {
+  display: block;
+  float: right;
+  width: 50%;
+  margin: 0 0 0 2%;
+  
+  }
+  article figure.myfoto img {
+      width: 100%;
+  }
+
+  
+  iframe {
+  border-radius: .5em;
+  max-width: 200px;
+  height: auto;
+  }
+  
+  .box p {
+  text-align: center;
+   
+  }
+  
+    
+  .herodiv {
+  position: relative;
+    
+  }
+  
+main figure.foto2 {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+main figure.foto2 img {
+    width: 100%;
+}
+main figure.foto2 figcaption {text-align: center; font-size: .75rem;}
+  
+.hero-ph img {
+ 
+  box-shadow: 0 2px 15px gray;
+  border-radius: .5em;
+  margin: 10px auto;
+  width: 50%;
+  /*height: 250px;*/
+  }
+
+  figure.myfoto img {
+      width: 100%;
+  }
+  
+  .summary {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  list-style-type: none;
+  background-color:  #dcf6ca;
+  padding: .8rem 1.5rem;
+  border: 1px solid #333;
+  box-shadow: 0 0 20px rgb(71, 71, 71);
+  }
+  
+  /*iconos prueba*/
+  .container {
+  background-color: blue;
+  padding: 1em;
+  overflow: hidden;
+  }
+  
+  /*----- Clearfix: Force an Element not to collapse -----*/
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+  

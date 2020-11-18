@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT 230 Web Fronted Development | BYU-Idaho | 2020</title>
+    <meta name="description" content="Wheather Assigment Portal For CIT 230">
+    <meta name="author" content="Circe Condales">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--<style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        </style>-->
+    <link rel="stylesheet" href="css/prestonmain.css">
+    <link rel="stylesheet" href="css/prestonmedium.css">
+    <link rel="stylesheet" href="css/prestonlarge.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+</head>
+<body>
+    <div id="pancakes" class="hidden"></div>
+      <header class="headings">
+          <picture>
+              <img src="../lesson3/images/iconfinder_kweather_18095.png" alt="icono sol y nube">
+          </picture>
+        
+          <!--<section class="headings">-->
+              <h1>Does the Weather Nice To Travel?</h1>
+              <div class="m">Check in your Wheather before going out!</div> 
+          
+      </header>     
+        
+      <nav class="clearfix">
+          <button onclick="toggleMenu()">🍔 Menu</button>
+          <ul id="navigation" class="hide">
+             
+              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="#">Preston</a></li>
+              <li class="active"><a href="#">Soda Springs</a></li>
+              <li class="active"><a href="#">Fish Haven</a></li>
+              <li class="active"><a href="/lesson8/Form-start/stormcenter.html">Storm Center</a></li>
+              <li class="active"><a href="/lesson6/gallery-7.html">Gallery</a></li>
+          </ul>
+      </nav>
+    <!--</section>-->
+      <main>
+          <h1 class="pestid">Preston Idaho</h1>
+    
+          <div class="herodiv">
+            <div class="hero-ph">
+            <figure class="myfoto"> 
+                  <img src="image/wdd230_image_franklinOriginal.jpeg" alt="imagen paisage" sizes="50vw"
+                  srcset="image/wdd230_image_franklinOriginal200.jpeg 200w,
+                  image/wdd230_image_franklinOriginal500.jpeg 500w,  
+                  image/wdd230_image_franklinOriginal800.jpeg 800w          
+                  ">   
+                
+                <section class="summary">
+                  <h3>Wheather Summary</h3>
+                  <hr>
+                  <ul>
+                  <li id="temperature">Current temperature:</li>
+                  <li id="windchill">Wind Chill:</li>
+                  <li id="wind">Wind Speed:</li>
+                  <li id="precipitation">Humidity:</li>
+                  <li id="traffic">Traffic Rating:</li>
+                </ul>
+                </section>
+             
+            </figure>
+        </div>
+        </div>
+        
+       <h2 class="forecastp">5 Days Forecast</h2>
+        <div class="forecast"> 
+        <table>
+      <thead>
+          <tr>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="80"><br> 
+              </td>
+              <td>
+                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="80"><br> </td>
+              <td>
+                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="80"><br> </td>
+              <td>
+                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="80"><br>
+              </td>
+              <td>
+                  <img src="/lesson5/image/weathericon (1).png" alt="sun" width="80"><br>
+              </td>             
+                  
+          </tr>
+      </tbody>
+  </table>
+        </div>
+          
+     <article>
+        <div class="clearfix" id="box4">
+            <!---<h2 class="weatherp">The weather Today</h2>-->
+          <figure class="foto2">
+          
+            <img src="/lesson5/image/pexels-jackson-david-2868441.jpg" alt="persona al aire libre" >
+         <figcaption>The Wheather today</figcaption>
+        </figure>
+          
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur tempore, debitis voluptatibus quos corrupti, minima atque facere repellendus suscipit maiores, enim excepturi velit magni eaque aliquam dicta totam quod unde asperiores. Voluptatibus nostrum, quasi eaque, ut sit voluptas repellendus, nisi illum voluptatum officiis eius nulla maxime! Iste, velit voluptatibus rem molestiae quisquam, unde recusandae ex veritatis fugiat nulla. </p> 
+            </div>
+        </article>
+    </main>
+        
+    <!-- modificacion del footer-->
+
+<footer>
+    
+    <div class="box">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282599746!2d-111.915344523242!3d42.09980531195205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses!2sve!4v1602784800792!5m2!1ses!2sve" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <h3>Contact Information</h3>
+        
+        <p>&#128241; +58-4241747366</p>           
+            
+            <div class="redes">
+                <a href="#" target="_blank"><img src="image/twitter.png" alt="icon twitter"></a>
+                <a href="#" target="_blank"><img src="image/instagram.png" alt="icon instagram"></a>
+                <a href="#" target="_blank"><img src="image/facebook.png" alt="icon facebook"></a>
+            </div>
+
+    </div>
+    <div class="copy">   
+        
+        <p>©The Night Horizon | Attributions | Circe Condales</p>
+        <a href="../index.html">Assigment Portal</a><br>        
+                               
+        <span id="update">Fri Oct 09 2020 22:16:50</span>    
+    </div>    
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontLoader.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/date.js"></script>   
+      
+    
+</body>
+</html>
