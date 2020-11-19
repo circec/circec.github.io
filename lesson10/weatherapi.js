@@ -10,6 +10,7 @@ fetch(apiURL)
 
        curtemp.innerHTML = jsObject.main.temp;
        iconsource.textContent = 'https://api.openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
+       const isrc =  'https://api.openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
        weathericon.setAttribute('src', isrc);
        weathericon.setAttribute('alt', jsObject.weather[0].description);
        
