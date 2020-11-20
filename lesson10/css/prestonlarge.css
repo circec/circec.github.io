@@ -95,9 +95,9 @@
             table {
                 border-collapse: collapse;
                 margin: 80px;                
-        border-radius: .5em;
-  box-shadow: 1px 1px 2px #337733;
-  box-sizing: border-box;
+                border-radius: .5em;
+                box-shadow: 1px 1px 2px #337733;
+                box-sizing: border-box;
             }
 
             table,th,td {
@@ -109,9 +109,9 @@
         .hero-ph img {
             height: 350px;
         }
-.mapa img {
-    width: 100%;
-}
+        .mapa img {
+            width: 100%;
+        }
        
         .box {
             margin: 0 auto;
