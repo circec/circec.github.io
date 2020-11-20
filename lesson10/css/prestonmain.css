@@ -114,7 +114,7 @@ body {
   footer h3 {
     line-height: 1em;
   }
-  #box4 {
+  /*#box4 {
     background-color: #828c51;
     margin-bottom: .7em;
     box-shadow: 1px 1px 2px #0000002f;
@@ -129,7 +129,15 @@ body {
   margin-right: auto;
   align-content: center;
   /*height: auto;*/
+
+  #box4{
+  margin-bottom: 20px;  
   box-sizing: border-box;
+  text-align: left;
+  background-color:  #337755;
+  margin: 5px;
+  padding: 20px;
+
   }
   
   #box:hover { background-color: rgba(0, 0, 0, 0.4);}
@@ -184,10 +192,12 @@ body {
   
   
   picture.foto2 {
-  display: block;
+  /*display: block;
   float: right;
   width: 50%;
-  margin: 0 0 0 2%;
+  margin: 0 0 0 2%;*/
+  width: 100%;
+  box-shadow: 0 0 30px #011C26;
   
   }
   article figure.myfoto img {
