@@ -190,6 +190,9 @@ body {
   
   }
   
+  .forecastp {
+    display: none;
+  }
   
   .foto2 {
   /*display: block;
