@@ -228,6 +228,10 @@ main figure.foto2 {
     float: right;
 }
 
+figcaption {
+  background-color: #a6c36f;
+}
+
 main figure.foto2 img {
     width: 100%;
 }
