@@ -26,11 +26,17 @@ const daynames = [
     "Saturday"
 ];*/
 
-var pancakeExists = document.querySelector("#pancakes") !== null;
-if (pancakeExists && new Date().getDay() != 5) {
-  document.querySelector("#pancakes").style.display = 'none';
-}
-
+(function fridayBanner() {
+    let d = new Date();
+    const ban = document.querySelector('.hidden');
+  
+    if (d.getDay() == 5)
+     {
+      ban.style.display = 'block';
+    } else {
+      ban.style.display = 'none';
+    };
+  }());
 
 /* Summary */
 
