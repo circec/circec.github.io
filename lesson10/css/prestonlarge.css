@@ -105,4 +105,10 @@
             width: 100%;
         }
 
+        footer {
+            max-width: 1000px;
+            margin: 0 auto;
+            
+          }
+
     } /*end large */
