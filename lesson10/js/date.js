@@ -26,9 +26,9 @@ const daynames = [
     "Saturday"
 ];*/
 
-var pancakeExists = document.querySelector("div.pancakes") !== null;
+var pancakeExists = document.querySelector("#pancakes") !== null;
 if (pancakeExists && new Date().getDay() != 5) {
-  document.querySelector("div.pancakes").style.display = 'none';
+  document.querySelector("#pancakes").style.display = 'none';
 }
 
 
