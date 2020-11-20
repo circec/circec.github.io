@@ -28,7 +28,7 @@ const daynames = [
 
 (function fridayBanner() {
     let d = new Date();
-    const ban = document.querySelector('.hidden');
+    const ban = document.querySelector('.panke');
   
     if (d.getDay() == 5)
      {
