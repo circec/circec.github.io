@@ -2,7 +2,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.table(jsObject); // get rid of this later
+    console.table(jsObject); 
     let t = parseFloat(jsObject.main.temp);
     let s = parseFloat(jsObject.wind.speed);
     let output = "N/A";

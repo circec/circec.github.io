@@ -69,7 +69,10 @@ body {
   
   footer {
     background-color: #1f2507;
-    border-radius: .5em;    
+    border-radius: .5em; 
+    display: grid;   
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 
   }
   .box {
@@ -78,6 +81,7 @@ body {
     grid-gap: 10px;
     color: rgb(204, 221, 171); 
     background-color: #337755; 
+    text-align: center;
     
   }
   
