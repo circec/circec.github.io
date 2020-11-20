@@ -55,7 +55,16 @@
 
              .forecast {
                 max-width: 1000px;
+                background-color: #a6c36f;
+                padding: 10px 0 20px 0;
              }
+
+             .forecast table{
+                background-color: #fff;
+                
+                           
+             }
+
              .forecast th {
                 background-color: #006287;
                 height: 30px;
