@@ -108,6 +108,15 @@ main {
     min-height: 20rem;
 }
 
+.panke {
+  background-color: #d9734e;
+  color: #fff;
+  padding: 10px;
+  font-size: .8em;
+  text-align: center;
+  display: none;
+}
+
 /*------------ MAIN ---------------*/
 form fieldset {
     margin: 2rem 0;
