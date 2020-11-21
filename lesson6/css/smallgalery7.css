@@ -81,12 +81,12 @@ body {
   
   /*load gallery*/
   .lazygallery {
-    /*display: grid;
+    display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
-    grid-gap: 2em;*/
-    display: block;
+    grid-gap: 1em;
+    
 }
 
 	footer,
