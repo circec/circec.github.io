@@ -119,7 +119,7 @@
             padding: 1.8em 10em;
         }
         
-        nav ul li.active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+        nav ul li.active a{ background-color: rgb(150, 160, 60); color: #dcf6ca;}
         nav ul li.sinac a:hover { background-color: rgba(0, 0, 0, 0.6);}
         nav ul.hide {display: none;}
         
