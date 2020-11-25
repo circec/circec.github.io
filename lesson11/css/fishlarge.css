@@ -1,0 +1,136 @@
+@media only screen and (min-width: 64rem) {
+
+    nav button {display: none;}
+    nav ul.hide {display: block;}
+    nav ul {margin-left: 2%;}
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.6);
+        padding: .6rem 1rem;
+    }
+    header picture img {
+        width: 200px;
+    }
+
+    header {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    header h1{
+        /*align-items: center;*/
+        color: whitesmoke;
+        font-family: 'Ranchers', cursive;
+        font-size: 2.5rem;
+        }
+
+        .m {
+            letter-spacing: 1.5pt;
+            font-size: larger;
+            margin-left: 17px;
+        }
+
+        h2{
+            font-size: 1.5rem;
+        }
+        header, footer{
+            border-radius: 10px;
+        }
+
+        .pestid {
+            text-align: center;
+         }
+         
+         #box4 p {
+            margin-top: 50px;
+            padding: 10px;
+          }
+          
+         
+         .summary {
+                 position: absolute;
+                 opacity: .7;
+                 bottom: 40px;
+                 left: 300px;
+             }
+
+             .forecast {
+                max-width: 1000px;
+                background-color: #a6c36f;
+                padding: 10px 0 20px 0;
+             }
+
+             .forecast table{
+                background-color: #b0dae9;
+            
+                text-align: center;                                  
+                           
+             }
+
+             .forecast th {
+                background-color: #006287;
+                height: 30px;
+                width: 120px;
+                color: white;
+                text-align: center;
+                border: 1px solid black;
+            }
+        
+            .forecast td {
+                /*border: 1px solid black;*/
+                border-collapse: initial;
+                height: 100px;
+            }
+        
+            .forecast img {
+                width: 90px;
+                height: 70px;
+                align-items: center;
+            }
+        
+            table {
+                border-collapse: collapse;
+                margin: 80px;                
+                border-radius: .5em;
+                box-shadow: 1px 1px 2px #337733;
+                box-sizing: border-box;
+            }
+
+            table,th,td {
+                border: 1px solid #333;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+           
+        .hero-ph img {
+            height: 350px;
+        }
+        .mapa img {
+            width: 100%;
+        }
+       
+        .box {
+            margin: 0 auto;
+            max-width: 100%;
+            padding: 1.8em 10em;
+        }
+        
+        nav ul li.active a{ background-color: rgb(150, 160, 60); color: #dcf6ca;}
+        nav ul li.sinac a:hover { background-color: rgba(0, 0, 0, 0.6);}
+        nav ul.hide {display: none;}
+        
+        .contenedor {
+            width: 100%;
+        }
+
+        footer {
+            max-width: 1000px;
+            margin: 0 auto;
+            
+          }
+
+    } /*end large */
