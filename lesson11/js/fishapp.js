@@ -23,9 +23,11 @@ fetch(apiURL)
 const forecastURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=f6541e29cb635a8e5272a1705e4acb7c';
 fetch(forecastURL)
   .then((response) => response.json())
-  .then((forecastObject) => {
-    console.table(forecastObject);
-    var forecast = forecastObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+  .then((jsObject) => {
+    /*console.table(forecastObject);*/
+    var forecast = jsObject['list'];
+    /*.filter(x => x.dt_txt.includes('18:00:00')*/
+    
     console.table(forecast);
     const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     for (let day = 0; day < forecast.length; day++) {
