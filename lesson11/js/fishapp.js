@@ -20,7 +20,7 @@ fetch(apiURL)
   });
 
   //forecast
-const forecastURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&lat=42.0380399&lon=-111.4048681&APPID=f6541e29cb635a8e5272a1705e4acb7c';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=f6541e29cb635a8e5272a1705e4acb7c';
 fetch(forecastURL)
   .then((response) => response.json())
   .then((forecastObject) => {
