@@ -26,6 +26,10 @@ const towns = jsonObject['towns'];
 
                 for(let e=0; e<eventlist.length; e++) {
                   let allEvent = document.createElement('li');
+                  if (e=0){
+                    allEvent.className = "townName";
+                  }
+
                   console.log(allEvent);
                   allEvent.textContent = eventlist[e];
                   document.querySelectorAll('.events').appendChild(allEvent);
