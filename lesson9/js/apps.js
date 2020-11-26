@@ -13,6 +13,7 @@ fetch(requestURL)
 const towns = jsonObject['towns'];
 
         for (let i = 0; i < towns.length; i++) {
+          for (let j = 0; j < identifier.length; j++) {
             if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
                 let towninfo = document.createElement('section');
                 let textcontainer = document.createElement('div');
@@ -23,6 +24,15 @@ const towns = jsonObject['towns'];
                 let rain = document.createElement('p');
                 let image = document.createElement('img');
                 
+                //prueba
+                for(let k = 0; k<eventlist.length; k++) {
+                  let newEvent = document.createElement('li');
+                  if (k == 0){newEvent.className = "townName";}
+                  console.log(newEvent);
+                  newEvent.textContent = eventlist[k];
+                  document.querySelector(`#local-events`).appendChild(newEvent);}
+    
+                h2.textContent = towns[i].name;
 
                 // code for populating info
                 towninfo.setAttribute('class', towns[i].name);
