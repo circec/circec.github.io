@@ -36,6 +36,7 @@ const daynames = [
     } else {
       ban.style.display = 'none';
     };
+
   }());
 
 /* Summary */
