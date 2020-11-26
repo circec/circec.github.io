@@ -22,6 +22,14 @@ const towns = jsonObject['towns'];
                 let population = document.createElement('p');
                 let rain = document.createElement('p');
                 let image = document.createElement('img');
+                let eventlist = towns[i].events;
+
+                for(let e=0; e<eventlist.length; e++) {
+                  let allEvent = document.createElement('li');
+                  console.log(allEvent);
+                  allEvent.textContent = eventlist[e];
+                  document.querySelectorAll('.events').appendChild(allEvent);
+                }
 
                 // code for populating info
                 towninfo.setAttribute('class', towns[i].name);
