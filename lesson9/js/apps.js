@@ -21,8 +21,7 @@ const towns = jsonObject['towns'];
                 let founded = document.createElement('p');
                 let population = document.createElement('p');
                 let rain = document.createElement('p');
-                let image = document.createElement('img');
-                
+                let image = document.createElement('img');                
                
     
                 h2.textContent = towns[i].name;
