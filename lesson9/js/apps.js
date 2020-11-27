@@ -36,7 +36,7 @@ const towns = jsonObject['towns'];
                 image.setAttribute('src', "image/" + towns[i].photo);
                 image.setAttribute('alt', towns[i].name);
 
-                textcontainer.append(h2, motto, founded, population, rain);
+                textcontainer.append(h2, motto, founded, population, rain, image);
                 towninfo.append(textcontainer, image);
 
                 document.querySelector('div.towns').appendChild(towninfo);
