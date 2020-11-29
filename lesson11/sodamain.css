@@ -200,7 +200,10 @@ body {
   article figure.myfoto img {
       width: 100%;
   }
-
+  
+  article h3, p {
+    color: #dcf6ca;
+  }
   
   iframe {
   border-radius: .5em;
