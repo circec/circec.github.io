@@ -204,7 +204,7 @@ body {
       width: 100%;
   }
 
-  article h3, p {
+  article.note, p {
     color: #dcf6ca;
   }
 
