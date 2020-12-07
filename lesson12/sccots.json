@@ -1,0 +1,51 @@
+{
+    "rentals":[
+    {
+        "typeScooter":"Honda Motor Scooters", 
+        "name": "Metropolitan(49cc)",
+        "specification":[
+
+            "1 persona"
+        ]
+    },
+    {
+        "name":"Dio(110cc)",
+        "specification":[
+            "2 persona"
+        ]
+    },
+
+        {
+            "name":"PCX150(149cc)",
+                "specification":[
+                "2 persona"
+            ]
+
+        }, 
+    
+    {        
+        "typeScooter":"ATV Side-by-Side",
+        "name":"Honda Pioneer 1000"
+    },
+
+        {
+            "typeScooter":"jeep",
+            "name":"Wrangler 4 door",
+                "specification":[
+                    "Manual with AC",
+                    "5 people max"
+                ]
+            },
+            {    
+            "name":"Wrangler 2 door",
+                "specification":[
+                    "open air",
+                    "Manual",
+                    "4 people Max"
+                ]
+        }
+
+        
+    
+]
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT 230 Web Fronted Development | BYU-Idaho | 2020</title>
+    <meta name="description" content="Wheather Assigment Portal For CIT 230">
+    <meta name="author" content="Circe Condales">
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+<!-- STYLE SHEETS -->
+<link href="../css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+<div id="pancakes" class="panke">Preston pancake's in the park! Saturday at 9:00am at the city park.</div>
+    <header class="headings">
+          
+        <img class="icono" src="image/scootss.png" alt="icono de la pagina">
+    
+        <h1>THE ULTIMATE WAY TO EXPLORE COZUMEL</h1>
+        <h2>SCOOTERS & JEEP RENTALS</h2>
+
+        <div><figure class="myfoto"> 
+            <img src="image/cozumel.jpg" alt="cozumel beach" sizes="50vw"
+            srcset="image/cozumel200.jpg 200w,
+            image/cozumel500.jpg 500w,  
+            image/cozumel800.jpeg 800w          
+            "></div>
+            <!--Our scooter rental fleet is 100% the top of the line Genuine Scooters. These have the most powerful engines to ensure you can get up the steep Hawaiian roads. The newest addition to Aloha Motorsports. RAD Power Bikes are a great way to take an afternoon cruise or to rent for the week--> 
+    
+</header>     
+    
+    
+<!-- NAVIGATION HERE -->
+<picture><img src="" alt=""></picture>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">🍔 Menu</button>
+          <ul id="navigation" class="hide">
+             
+              <li class="active"><a href="home.html">HOME</a></li>
+              <li class="sinac"><a href="#">RENTALS</a></li>
+              <li class="sinac"><a href="#">RESERVATIONS</a></li>
+              <li class="sinac"><a href="#">TOURS</a></li>
+              <li class="sinac"><a href="#">CONTACT</a></li>
+         </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+<main>
+    <h2 class="check">Check Wheather¡</h2>
+    <div class="cta">
+        <a href="#" class="btn">Reserve Here!</a>
+      </div>
+        
+    <form method="get" action="thanks.html">
+        <section class="summaryrentals">
+            <h3>Type Of Rentals</h3>
+            <hr>
+            <ul>
+            <li>Honda Motor Scooters</li>
+                <ul>
+                    <li>Honda Metropolitan (49cc) - 1 person
+                    </li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150 (149cc) - 2 person</li>
+                </ul>
+            <li>ATV Side-by-Side</li>
+                <ul>
+                    <li>Honda Pioneer 1000
+                    </li>
+                </ul>
+            <li>Jeep Rentals</li>
+                <ul>
+                    <li>4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                    <li>2-door Jeep Wrangler - open air - manual - 4 people max</li>
+                </ul>
+            
+          </ul>
+          </section>
+
+          <section class="summarywheather">
+            <h3>Wheather Summary</h3>
+            <hr>
+            <ul>
+            <li>Current temperature:<span id="weather"></span></li>
+            <li>Temperature:<span id="current-temp"></span></li>
+            <li>Wind Chill:<span id="output"></span></li>
+            <li>Humidity:<span id="humidity"></span></li>
+            <li>Wind Speed:<span id="speed"></span></li>
+          </ul>
+          </section>
+
+          <h2 class="forecastp">3 Days Forecast</h2>
+        <div class="forecast"> 
+        <table>
+      <thead>
+          <tr>
+              <th><span id="dayofweek1"></span></th>
+              <th><span id="dayofweek2"></span></th>
+              <th><span id="dayofweek3"></span></th>
+          </tr>
+      </thead>
+      <!--<tbody>-->
+          <tr>
+              <td>
+                  <img id="icon1" src="https://openweathermap-api-icons/blob/master/icons/unknown.png?raw=true" alt="sun" width="80"><br> 
+              </td>
+              <td>
+                  <img id="icon2" src="https://openweathermap-api-icons/blob/master/icons/unknown.png?raw=true" alt="sun" width="80"><br> </td>
+              <td>
+                  <img id="icon3" src="https://openweathermap-api-icons/blob/master/icons/unknown.png?raw=true" alt="sun" width="80"><br> </td>                         
+                  
+          </tr>
+          <tr>
+              <td><span id="forecast1"></span>&#8457;</td>
+              <td><span id="forecast2"></span>&#8457;</td>
+              <td><span id="forecast3"></span>&#8457;</td>
+          </tr>
+      <!--</tbody>-->
+  </table>
+        </div>
+
+<!-- FOOTER HERE -->   
+    <footer>
+        <div class="box">
+
+            <h3>Contact Information</h3>
+            
+            <p>&#128241; +58-4241747366</p>           
+                
+                <div class="redes">
+                    <a href="#" target="_blank"><img src="image/youtube1.png" alt="icon youtube"></a>
+                    <a href="#" target="_blank"><img src="image/twiter.png" alt="icon twiter"></a>
+                    <a href="#" target="_blank"><img src="image/facebook.png" alt="icon facebook"></a>
+                </div>
+    
+        </div>
+        <div class="copy">   
+            
+            <p>©The Night Horizon | Attributions | Circe Condales</p>
+            <!--<a href="">Assigment Portal</a><br>-->
+            
+                                   
+            <p><span id="update">Fri Oct 09 2020 22:16:50</span></p>    
+        </div>
+    </footer>
+
+<script src="js/date.js"></script>
+    <script src="js/fontLoader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/scoots.js"></script>
+    
+</body>
+</html>
+  
