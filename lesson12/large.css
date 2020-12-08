@@ -33,6 +33,38 @@ body {
   
   
   /*---------------NAVIGATION-------------------*/
+  #navigation {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ham {
+    align-content: center;
+  }
+  nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+  }
+  nav {
+    font-family: 'acme', sans-serif;
+    background-color: #ff880c;
+    margin: 0 auto;
+    max-width: 760px;
+  margin-top: 1rem;
+  border-radius: .5em;
+  
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
   nav button {display: none;}
     nav ul.hide {display: block;}
     nav ul {margin-left: 2%;}
