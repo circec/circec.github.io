@@ -1,6 +1,6 @@
 /*----------------  BODY-------------------*/
 body {
-  background-color: #fef190;
+  background-color: #f6eded;
 }
 
 
@@ -28,6 +28,9 @@ body {
   color: black;
 }
 
+.icono {
+  background-color: #ff880c;
+}
 
 
 
@@ -92,7 +95,37 @@ nav ul.hide {display: none;}
   grid-template-columns: 1fr;
 }
 
+.summaryrentals {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  background: radial-gradient(#ff880c, #fef190);
+  /*background-color:  #ffbb40;*/
+  padding: .8rem 1.5rem;
+  border: 1px solid #333;
+  box-shadow: 0 0 20px rgb(71, 71, 71);
+  padding: .5em;
+  margin: 1em;
+  opacity: 0.8;
+}
 
+.summarywheather {  
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background: radial-gradient(#ff880c, #fef190);
+    /*background-color:  #ffbb40;*/
+    padding: .8rem 1.5rem;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px rgb(71, 71, 71);
+    padding: .5em;
+    margin: 1em;
+    opacity: 0.8;
+  }
+  
+
+
+/*------boton de reserva----*/
 .cta{
   position: absolute;
   left: 50%;
@@ -118,16 +151,22 @@ nav ul.hide {display: none;}
 	.btn:hover{
 		background-color: #e16e50;
 	}
-
+/*------------------------------*/
 
 
 
 
 /*---------------FOOTER-------------------*/
 
+.box {
+  background-color: #ff880c;
+  margin-bottom: -1em;
+}
 
-
-
+.box1 {
+  background-color: #cf3401;
+  color: #fef190;
+}
 
 
 

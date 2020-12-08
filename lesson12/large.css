@@ -1,7 +1,7 @@
 @media only screen and (min-width: 64rem) {
 /*----------------  BODY-------------------*/
 body {
-    background-color: #fef190;
+    background-color: #f6eded;
   }
   
   
@@ -107,10 +107,13 @@ body {
   /*---------------MAIN-------------------*/
   .gridcontainer {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
   }
   
-  
+
+
+  /*--------boton reserva--------*/
   .cta{
     position: absolute;
     left: 50%;
