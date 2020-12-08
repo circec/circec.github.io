@@ -93,6 +93,7 @@ nav ul.hide {display: none;}
 .gridcontainer {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 1rem;
 }
 
 .summaryrentals {
