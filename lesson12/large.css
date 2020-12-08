@@ -112,10 +112,15 @@ body {
     grid-gap: 1rem;
   }
   
-  aside,
-  picture {
+  
+  .pic1 {
     grid-column: 3;
     grid-row: 2;
+  }
+
+  .parogra {
+    grid-column: 3;
+    grid-row: 3;
   }
 
   /*--------boton reserva--------*/
@@ -152,8 +157,8 @@ body {
   /*---------------FOOTER-------------------*/
   .box,
   .box1 {
-    grid-column-end: span 4;
-    grid-row-end: span -1;
+    grid-column-end: span -1;
+    /*grid-row-end: span -1;*/
   }
   
   
