@@ -8,6 +8,10 @@ body {
   
   
   /*---------------HEADER-------------------*/
+  .myfoto {
+    float: right;
+  }
+
   .alert {
     padding: 20px;
     background-color: #f44336;
@@ -30,9 +34,18 @@ body {
   }
   
   .summaryrentals {
-    float: right;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    background: radial-gradient(#ff880c, #fef190);
+    /*background-color:  #ffbb40;*/
+    padding: .8rem 1.5rem;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px rgb(71, 71, 71);
+    padding: .5em;
+    margin: 1em;
+    opacity: 0.8;
   }
-  
   
   
   /*---------------NAVIGATION-------------------*/
