@@ -111,7 +111,11 @@ body {
     grid-template-rows: auto;
   }
   
-
+  aside,
+  picture {
+    grid-column: 3;
+    grid-row: 2;
+  }
 
   /*--------boton reserva--------*/
   .cta{
