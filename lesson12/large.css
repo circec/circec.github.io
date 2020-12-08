@@ -157,11 +157,12 @@ body {
   /*---------------FOOTER-------------------*/
   .box,
   .box1 {
-    grid-column: 1/4;
-    /*grid-row-end: span -1;*/
+    /*grid-column: 1/4;*/
+    grid-row: 1/3
   }
   
   
+
   
   
   
