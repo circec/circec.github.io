@@ -9,7 +9,7 @@ body {
   
   /*---------------HEADER-------------------*/
   .myfoto {
-    float: right;
+    max-width: 100%;
   }
 
   .alert {
