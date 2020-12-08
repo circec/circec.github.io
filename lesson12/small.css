@@ -42,6 +42,10 @@ body {
 
 
 /*---------------MAIN-------------------*/
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 .cta{
   position: absolute;
   left: 50%;
