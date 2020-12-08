@@ -115,12 +115,12 @@ body {
   
   .pic1 {
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
   }
 
   .parogra {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 2;
   }
 
   /*--------boton reserva--------*/
