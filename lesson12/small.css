@@ -145,7 +145,7 @@ nav ul.hide {display: none;}
 	text-decoration: none;
 	text-align: center;
 	display: inline-block;
-  position: relative;
+  position: absolute;
   
   }
 	.btn:hover{
