@@ -34,6 +34,19 @@ body {
   
   /*---------------NAVIGATION-------------------*/
   #navigation {
+		display: flex;
+	}
+	#navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	#navigation a {
+		text-align: center;
+	}
+	/*#navigation li:first-child {
+		display: none;
+    }*/
+  #navigation {
     text-align: center;
     list-style: none;
     padding: 0;
@@ -53,7 +66,7 @@ body {
     font-family: 'acme', sans-serif;
     background-color: #ff880c;
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 960px;
   margin-top: 1rem;
   border-radius: .5em;
   
@@ -78,7 +91,7 @@ body {
         padding: .6rem 1rem;
     }
   
-  nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+  nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #333f2b;}
   nav ul li.sinac a:hover { background-color: rgba(0, 0, 0, 0.6);}
   nav ul.hide {display: none;}
   
