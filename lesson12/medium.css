@@ -1,0 +1,121 @@
+@media only screen and (min-width: 35rem) {
+/*----------------  BODY-------------------*/
+body {
+    background-color: #fef190;
+  }
+  
+  
+  
+  
+  /*---------------HEADER-------------------*/
+  
+  
+  
+  
+  /*---------------NAVIGATION-------------------*/
+  #navigation {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ham {
+    align-content: center;
+  }
+  nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+  }
+  nav {
+    font-family: 'acme', sans-serif;
+    background-color: #ff880c;
+    margin: 0 auto;
+    max-width: 760px;
+  margin-top: 1rem;
+  border-radius: .5em;
+  
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #fef190;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  
+  nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #dcf6ca;}
+  nav ul li.sinac a:hover { background-color: rgba(0, 0, 0, 0.6);}
+  nav ul.hide {display: none;}
+  
+  
+  
+  
+  
+  /*---------------MAIN-------------------*/
+  /*--ALERTAS--*/
+  
+  
+  
+  /*---------------MAIN-------------------*/
+  .gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  .cta{
+    position: absolute;
+    left: 50%;
+    margin: 0 0 100px -150px;
+  }
+  
+  .btn{
+      width: 300px;
+      height: 50px;
+      line-height: 50px;	
+      background-color: #FF6138;
+    border-radius: 8px;
+      color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    font-weight: normal;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+    position: relative;
+    
+    }
+      .btn:hover{
+          background-color: #e16e50;
+      }
+  
+  
+  
+  
+  
+  /*---------------FOOTER-------------------*/
+  
+  
+  
+  
+  
+  
+  
+    /*----- Clearfix: Force an Element not to collapse -----*/
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+}
