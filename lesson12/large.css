@@ -14,7 +14,7 @@ body {
   }
   .icono img {
     width: 200px;
-}
+  }
   .alert {
     padding: 20px;
     background-color: #f44336;
@@ -40,8 +40,8 @@ body {
   
   .summaryrentals {
     position: absolute;
-    bottom: 10px;
-    left: -10px;
+    bottom: -10px;
+    left: 450px;
     background: radial-gradient(#ff880c, #fef190);
     /*background-color:  #ffbb40;*/
     padding: .8rem 1.5rem;
