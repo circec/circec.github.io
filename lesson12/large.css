@@ -163,6 +163,11 @@ body {
     grid-row: 3;
   }
 
+  .forecast {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
   /*--------boton reserva--------*/
   .cta{
     position: absolute;
