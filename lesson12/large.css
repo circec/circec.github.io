@@ -164,6 +164,7 @@ body {
   }*/
 
   .forecast {
+    background-color: #ff880c;
     grid-column: 3;
     grid-row: 3;
   }
