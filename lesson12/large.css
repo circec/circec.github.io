@@ -9,14 +9,19 @@ body {
   
   /*---------------HEADER-------------------*/
   .myfoto {
-    max-width: 100%;
+    width: 960;
+    height: 350px;
   }
-
+  .icono img {
+    width: 200px;
+}
   .alert {
     padding: 20px;
     background-color: #f44336;
     color: white;
   }
+
+  
   
   .closebtn {
     margin-left: 15px;
