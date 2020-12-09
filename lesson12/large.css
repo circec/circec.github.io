@@ -40,8 +40,8 @@ body {
   
   .summaryrentals {
     position: absolute;
-    bottom: -10px;
-    left: 450px;
+    bottom: -20px;
+    left: 500px;
     background: radial-gradient(#ff880c, #fef190);
     /*background-color:  #ffbb40;*/
     padding: .8rem 1.5rem;
