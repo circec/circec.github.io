@@ -145,7 +145,7 @@ body {
   }
 
   .summarywheather {  
-    position: absolute;
+    /*position: absolute;*/
     bottom: 10px;
     left: 50px;
     background: radial-gradient(#ff880c, #fef190);
@@ -158,10 +158,10 @@ body {
     opacity: 0.8;
   }
 
-/*.summarywheather {
+.summarywheather {
     grid-column: 1;
     grid-row: 3;
-  }*/
+  }
 
   .forecast {
     background-color: #ff880c;
