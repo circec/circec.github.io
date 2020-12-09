@@ -112,7 +112,7 @@ nav ul.hide {display: none;}
 }
 
 .summarywheather {  
-  position: absolute;
+  /*position: absolute;*/
   bottom: 10px;
   left: 50px;
   background: radial-gradient(#ff880c, #fef190);
