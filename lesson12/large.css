@@ -203,8 +203,8 @@ body {
     font-weight: normal;
       text-decoration: none;
       text-align: center;
-      display: inline-block;
-    position: relative;
+      /*display: inline-block;
+    position: relative;*/
     
     }
       .btn:hover{
