@@ -144,6 +144,12 @@ body {
     grid-row: 2;
   }
 
+
+  .summarywheather {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
   /*--------boton reserva--------*/
   .cta{
     position: absolute;
@@ -176,11 +182,6 @@ body {
   
   
   /*---------------FOOTER-------------------*/
-  /*.box,
-  .box1 {
-    /*grid-column: 1/4;*/
-    /*grid-row: 1/3
-  }*/
   
   
 
