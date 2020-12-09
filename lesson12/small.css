@@ -124,7 +124,10 @@ nav ul.hide {display: none;}
   margin: 1em;
   opacity: 0.8;
 }
-  
+
+.summarywheather {
+  grid-row: 4;
+}
 
 
 /*------boton de reserva----*/
