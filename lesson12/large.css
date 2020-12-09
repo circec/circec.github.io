@@ -158,10 +158,10 @@ body {
     opacity: 0.8;
   }
 
-  .summarywheather {
+/*.summarywheather {
     grid-column: 1;
     grid-row: 3;
-  }
+  }*/
 
   .forecast {
     grid-column: 3;
