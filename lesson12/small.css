@@ -7,6 +7,20 @@ body {
 
 
 /*---------------HEADER-------------------*/
+
+.headings {
+  background-color: #ff880c;
+  /*max-width: 50rem;*/
+  padding: 10px 0;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  color: #dcf6ca;
+  margin: 0 auto;
+  margin-top: 2rem;
+  /*border-radius: .5em;*/
+}
+
 .alert {
   padding: 20px;
   background-color: #f44336;
@@ -28,8 +42,10 @@ body {
   color: black;
 }
 
-.icono {
+.icono img {
   background-color: #ff880c;
+  max-width: 80px;
+  height: auto;
 }
 
 .summaryrentals {
