@@ -48,7 +48,7 @@ body {
   height: auto;
 }
 
-.summaryrentals {
+header section.summaryrentals {
   position: absolute;
   bottom: 10px;
   left: 50px;
