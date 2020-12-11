@@ -38,24 +38,7 @@ body {
     color: black;
   }
   
-  header section.summaryrentals {
-    position: absolute;
-    bottom: -50px;
-    left: 400px;
-    background: radial-gradient(#ff880c, #fef190);
-    /*background-color:  #ffbb40;*/
-    padding: .8rem 1.5rem;
-    border: 1px solid #333;
-    box-shadow: 0 0 20px rgb(71, 71, 71);
-    padding: .5em;
-    margin: 1em;
-    opacity: 0.8;
-    width: 30%;
-    height: 35%;
-    font-size: 0.8rem;
-    color: #0e1303;
-    font-weight: bold;
-  }
+  
   
   
   /*---------------NAVIGATION-------------------*/
@@ -150,13 +133,37 @@ body {
   }
 
   .pic3 {
-    grid-column: 2;
-    /*grid-row: 1;*/
+    grid-column: 1;
+    grid-row: 2;
   }
 
   .parogra3 {
     grid-column: 1;
     /*grid-row: 2;*/
+  }
+
+  .summaryrentals {
+    position: absolute;
+    bottom: -50px;
+    left: 400px;
+    background: radial-gradient(#ff880c, #fef190);
+    /*background-color:  #ffbb40;*/
+    padding: .8rem 1.5rem;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px rgb(71, 71, 71);
+    padding: .5em;
+    margin: 1em;
+    opacity: 0.8;
+    width: 30%;
+    height: 35%;
+    font-size: 0.8rem;
+    color: #0e1303;
+    font-weight: bold;
+  }
+
+  .summaryrentals {
+    grid-column: 2;
+    grid-row: 2;
   }
 
   .summarywheather {  
