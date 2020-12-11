@@ -122,30 +122,30 @@ body {
   }
   
   
-  .pic1 {
+  /*.pic1 {
     grid-column: 3;
     grid-row: 1;
-  }
+  }*/
 
   .parogra {
     grid-column: 3;
     grid-row: 2;
   }
 
-  .pic2 {
+/*.pic2 {
     grid-column: 1;
     grid-row: 1;
-  }
+  }*/
 
   .parogra2 {
     grid-column: 1;
     grid-row: 2;
   }
 
-  .pic3 {
+  /*.pic3 {
     grid-column: 1;
     grid-row: 2;
-  }
+  }*/
 
   .parogra3 {
     grid-column: 1;
