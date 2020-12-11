@@ -60,8 +60,16 @@ header section.summaryrentals {
   padding: .5em;
   margin: 1em;
   opacity: 0.8;
+  width: 70%;
+  height: 50%;
+  font-size: 0.8rem;
+  color: #526f12;
+  font-weight: bold;
 }
 
+figure.myfoto img {
+  width: 100%;
+}
 
 
 

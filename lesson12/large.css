@@ -8,10 +8,10 @@ body {
   
   
   /*---------------HEADER-------------------*/
-  .myfoto {
+  /*.myfoto {
     width: 960;
     height: 350px;
-  }
+  }*/
   .icono img {
     width: 200px;
   }
@@ -38,10 +38,10 @@ body {
     color: black;
   }
   
-  .summaryrentals {
+  header section.summaryrentals {
     position: absolute;
-    bottom: -20px;
-    left: 500px;
+    bottom: -50px;
+    left: 400px;
     background: radial-gradient(#ff880c, #fef190);
     /*background-color:  #ffbb40;*/
     padding: .8rem 1.5rem;
@@ -50,6 +50,11 @@ body {
     padding: .5em;
     margin: 1em;
     opacity: 0.8;
+    width: 30%;
+    height: 35%;
+    font-size: 0.8rem;
+    color: #0e1303;
+    font-weight: bold;
   }
   
   
