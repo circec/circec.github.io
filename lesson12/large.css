@@ -132,6 +132,16 @@ body {
     grid-row: 2;
   }
 
+  .pic2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .parogra2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
   .pic3 {
     grid-column: 1;
     grid-row: 2;
@@ -143,7 +153,7 @@ body {
   }
 
   .summaryrentals {
-    position: absolute;
+    /*position: absolute;*/
     bottom: -50px;
     left: 400px;
     background: radial-gradient(#ff880c, #fef190);
