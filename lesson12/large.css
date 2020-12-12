@@ -159,8 +159,8 @@ body {
 
   .summaryrentals {
     /*position: absolute;*/
-    bottom: -50px;
-    left: 400px;
+    /*bottom: -50px;
+    left: 400px;*/
     background: radial-gradient(#ff880c, #fef190);
     /*background-color:  #ffbb40;*/
     padding: .8rem 1.5rem;
@@ -183,8 +183,8 @@ body {
 
   .summarywheather {  
     /*position: absolute;*/
-    bottom: 10px;
-    left: 50px;
+    /*bottom: 10px;
+    left: 50px;*/
     background: radial-gradient(#ff880c, #fef190);
     /*background-color:  #ffbb40;*/
     padding: .8rem 1.5rem;
