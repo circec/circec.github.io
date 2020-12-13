@@ -140,6 +140,7 @@ body {
   .parogra1 {
     grid-column: 1;
     grid-row: 1;
+    margin-top: 5px;
   }
 
   .parogra2 {
