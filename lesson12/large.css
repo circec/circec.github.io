@@ -46,11 +46,11 @@ body {
     color: black;
   }
  
-  /*--------boton reserva--------*/
+/*--------boton reserva--------*/
 .cta {
   /*position: absolute;*/
   left: 50%;
-  margin: 100px 0 100px -150px;
+  margin: -100px 0 100px -150px;
 }
 
 .cta {
@@ -74,11 +74,11 @@ body {
   position: relative;*/
   
   }
-    .btn:hover{
-        background-color: #e16e50;
-    }
+  .btn:hover{
+    background-color: #e16e50;
+  }
 
-    /*--------FIN boton reserva--------*/
+  /*--------FIN boton reserva--------*/
   
   
   /*---------------NAVIGATION-------------------*/
