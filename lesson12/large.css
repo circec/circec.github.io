@@ -207,6 +207,11 @@ body {
     grid-column: 3;
     grid-row: 3;
     height: 50%;
+    color: #0e1303;
+  }
+
+  .treday {
+    margin-top: 1em;
   }
 
   /*--------boton reserva--------*/
