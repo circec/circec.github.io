@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+pdate@media only screen and (min-width: 35rem) {
 /*----------------  BODY-------------------*/
 body {
     background-color: #f6eded;
@@ -18,7 +18,40 @@ body {
     float: left;
   }
 
+  /*--------boton reserva--------*/
+.cta {
+  /*position: absolute;*/
+  /*left: 50%;*/
+  margin: 100px 0 300px 300px;
+}
+
+.cta {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.btn{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;	
+    background-color:#f44336;
+  border-radius: 8px;
+    color: #fff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    /*display: inline-block;
+  position: relative;*/
   
+  }
+  .btn:hover{
+    background-color: #e16e50;
+  }
+  /*--------FIN boton reserva--------*/
+
   /*---------------NAVIGATION-------------------*/
   #navigation {
     text-align: center;
