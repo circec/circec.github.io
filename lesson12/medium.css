@@ -22,13 +22,13 @@ body {
 .cta {
   /*position: absolute;*/
   /*left: 50%;*/
-  margin: 300px 0 300px 500px;
+  margin: 100px 0 300px 70px;
 }
 
-.cta {
+/*.cta {
   grid-column: 1;
   grid-row: 2;
-}
+}*/
 
 .btn{
     width: 300px;
@@ -112,10 +112,8 @@ body {
   .gridcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-  
-  
-  
+  } 
+ 
   
       .parogra {
         margin-top: 1em;
