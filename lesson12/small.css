@@ -14,11 +14,12 @@ body {
   padding: 10px 0;
   display: flex;
   align-items:center;
-  justify-content:center;
+  /*justify-content:center;*/
   color: #dcf6ca;
   margin: 0 auto;
   margin-top: 2rem;
   font-size: 10px;
+  text-align: center;
   /*border-radius: .5em;*/
 }
 
@@ -48,18 +49,19 @@ body {
 .cta{
   position: absolute;
   left: 50%;
-  margin: -80px 0 100px -150px;
+  /*margin: -80px 0 100px -150px;*/
+  margin: 100px 0 300px -90px;
 }
 
 .btn{
-	width: 300px;
+	width: 200px;
 	height: 50px;
 	line-height: 50px;	
 	background-color: #f44336;
   border-radius: 8px;
 	color: #fff;
   font-family: 'Indie Flower', cursive;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 	text-decoration: none;
 	text-align: center;
@@ -77,6 +79,7 @@ body {
   background-color: #ff880c;
   max-width: 80px;
   height: auto;
+  float: left;
 }
 
 header section.summaryrentals {
@@ -91,7 +94,7 @@ header section.summaryrentals {
   padding: .5em;
   margin: 1em;
   opacity: 0.8;
-  width: 70%;
+  width: 50%;
   height: 50%;
   font-size: 0.8rem;
   color: #526f12;
@@ -197,11 +200,13 @@ nav ul.hide {display: none;}
 .box {
   background-color: #ff880c;
   margin-bottom: -1em;
+  text-align: center;
 }
 
 .box1 {
   background-color: #cf3401;
   color: #fef190;
+  text-align: center;
 }
 
 
