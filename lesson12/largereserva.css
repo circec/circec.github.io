@@ -1,0 +1,281 @@
+@media only screen and (min-width: 64rem) {
+    /*----------------  BODY-------------------*/
+    body {
+        background-color: #f6eded;
+      }
+      
+       
+      
+      /*---------------HEADER-------------------*/
+      /*.myfoto {
+        width: 960;
+        height: 350px;
+      }*/
+      .icono img {
+        width: 200px;
+        float: left;
+      }
+    
+      .headings {
+      color: #f6eded;
+      text-align: center;
+      }
+    
+    
+      .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+      }
+    
+    
+      
+      .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      .closebtn:hover {
+        color: black;
+      }
+     
+    /*--------boton reserva--------*/
+    .cta {
+      /*position: absolute;*/
+      /*left: 50%;*/
+      margin: -100px 0 100px -300px;
+    }
+    
+    .cta {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    
+    .btn{
+        width: 300px;
+        height: 50px;
+        line-height: 50px;	
+        background-color:#f44336;
+      border-radius: 8px;
+        color: #fff;
+      font-family: 'Indie Flower', cursive;
+      font-size: 22px;
+      font-weight: normal;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        /*display: inline-block;
+      position: relative;*/
+      
+      }
+      .btn:hover {
+        background-color: #e16e50;
+      }
+    
+      /*--------FIN boton reserva--------*/
+      
+      
+      /*---------------NAVIGATION-------------------*/
+      #navigation {
+            display: flex;
+        }
+        #navigation li {
+            display: block; /* change state in small view */
+            flex: 1 1 auto;
+        }
+        #navigation a {
+            text-align: center;
+        }
+        /*#navigation li:first-child {
+            display: none;
+        }*/
+      #navigation {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+      }
+      
+      .ham {
+        align-content: center;
+      }
+      nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #555;
+      }
+      nav {
+        font-family: 'acme', sans-serif;
+        background-color: #ff880c;
+        margin: 0 auto;
+        max-width: 1000px;
+      margin: 1em 0 2em 0;
+      border-radius: .5em;
+      
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+    
+      nav button {display: none;}
+        nav ul.hide {display: block;}
+        nav ul {margin-left: 2%;}
+        nav ul li {
+            float: left;
+        }
+    
+        nav ul li a {
+            border: none;
+            border-right: 1px solid rgba(0, 0, 0, 0.6);
+            padding: .6rem 1rem;
+        }
+      
+      nav ul li .active a{ background-color: rgba(0, 0, 0, 0.3); color: #333f2b;}
+      nav ul li.sinac a:hover { background-color: rgba(0, 0, 0, 0.6);}
+      nav ul.hide {display: none;}
+      
+      
+      
+      
+      
+      /*---------------MAIN-------------------*/
+      /*--ALERTAS--*/
+      
+      
+      
+      /*---------------MAIN-------------------*/
+      .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+      }
+      
+      
+      /*.pic1 {
+        grid-column: 3;
+        grid-row: 1;
+      }*/
+    
+      .parogra {
+        grid-column: 3;
+        grid-row: 2;
+      }
+    
+    /*.pic2 {
+        grid-column: 1;
+        grid-row: 1;
+      }*/
+    
+      .parogra1 {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 5px;
+      }
+    
+      .parogra2 {
+        grid-column: 2;
+        grid-row: 2;
+        margin-right: 2em;
+      }
+    
+      .pic3 {
+        float: left;
+      }
+    
+      /*.parogra3 {
+        grid-column: 3;
+        grid-row: 1;
+      }*/
+    
+      .summaryrentals {
+        /*position: absolute;*/
+        /*bottom: -50px;
+        left: 400px;*/
+        background: radial-gradient(#ff880c, #fef190);
+        /*background-color:  #ffbb40;*/
+        padding: .8rem 1.5rem;
+        border: 1px solid #333;
+        box-shadow: 0 0 20px rgb(71, 71, 71);
+        padding: .5em;
+        margin: 1em;
+        opacity: 0.8;
+        /*width: 30%;*/
+        height: 55%;
+        font-size: 0.8rem;
+        color: #0e1303;
+        font-weight: bold;
+      }
+    
+      .summaryrentals {
+        grid-column: 2/4;
+        grid-row: 1;
+      }
+    
+      .summarywheather {  
+        /*position: absolute;*/
+        /*bottom: 10px;
+        left: 50px;*/
+        background: radial-gradient(#ff880c, #fef190);
+        /*background-color:  #ffbb40;*/
+        padding: .8rem 1.5rem;
+        height: 50%;
+        border: 1px solid #333;
+        box-shadow: 0 0 20px rgb(71, 71, 71);
+        padding: .5em;
+        margin: 1em;
+        opacity: 0.8;
+      }
+    
+    .summarywheather {
+        grid-column: 1;
+        grid-row: 3;
+      }
+    
+      .forecast {
+        background-color: #ff880c;
+        grid-column: 3;
+        grid-row: 3;
+        height: 50%;
+        color: #0e1303;
+      }
+    
+      .treday {
+        margin-top: 1em;
+      }
+    
+      
+      
+      
+      
+      
+      
+      /*---------------FOOTER-------------------*/
+      .box {
+        text-align: center;
+      }
+      
+      .box1 {
+        text-align: center;
+      }
+      
+      
+      
+      
+        /*----- Clearfix: Force an Element not to collapse -----*/
+      .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+    }
